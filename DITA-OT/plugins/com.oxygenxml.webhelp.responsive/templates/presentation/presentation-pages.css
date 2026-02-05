@@ -1,0 +1,100 @@
+/*
+ * ==============================================
+ * Skin for oXygen generated PDF Presentation.
+ * ==============================================
+ */
+
+/*
+ * ------------------------------------------------------------------
+ * 
+ * Pages definition.
+ * 
+ */
+@page {
+  size: 11in 6.9in;
+  margin: 0.75in 0.5in 0.25in;
+}
+
+@page matter-page:left, matter-page:right {
+  @top-left-corner {
+    content: " ";
+    background-color: #3D85C6;
+  }
+  @top-left {
+    color: #fff;
+    background-color: #3D85C6;
+    content: counter(page);
+    content: string(chaptertitle-only);
+    font-size: 16pt;
+  }
+  @top-right {
+    color: #fff;
+    background-color: #3D85C6;
+    content: counter(page);
+    content: string(maptitle);
+    font-size: 16pt;
+  }
+  @top-right-corner {
+    content: " ";
+    background-color: #3D85C6;
+  }
+}
+
+@page :left, :right, chapter:first:left, chapter:first:right, chapter:left, chapter:right {
+  @top-left-corner {
+    content: " ";
+    background-color: #3D85C6;
+  }
+  @top-left {
+    color: #fff;
+    background-color: #3D85C6;
+    content: string(chaptertitle-only) string(sectiontitle);
+    font-size: 16pt;
+  }
+  @top-right {
+    color: #fff;
+    background-color: #3D85C6;
+    content: string(maptitle);
+    font-size: 16pt;
+  }
+  @top-right-corner {
+    content: " ";
+    background-color: #3D85C6;
+  }
+  @right-top {
+    content: none;
+  }
+  @right-bottom {
+    content: none;
+  }
+  @bottom-center {
+    content: none;
+  }
+}
+
+@page index {
+  @top-left-corner {
+    content: " ";
+    background-color: #3D85C6;
+  }
+  @top-left {
+    color: #fff;
+    background-color: #3D85C6;
+    content: string(chaptertitle-only);
+    font-size: 16pt;
+  }
+  @top-right {
+    color: #fff;
+    background-color: #3D85C6;
+    content: string(maptitle);
+    font-size: 16pt;
+  }
+  @top-right-corner {
+    content: " ";
+    background-color: #3D85C6;
+  }
+  @bottom-center      {
+    content: counter(page);
+    content: none;
+  }
+}

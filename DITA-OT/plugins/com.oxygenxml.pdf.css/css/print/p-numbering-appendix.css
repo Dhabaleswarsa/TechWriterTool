@@ -1,0 +1,138 @@
+/*
+ * ======================================================
+ * 
+ * Appendices and appendix, both in TOC and
+ * in the content.
+ * 
+ * ======================================================
+ */
+
+/*
+ * ======================================= 
+ *  TOC
+ */
+
+/*
+ * Reset the appendix counter on the first appendix that follows a chapter, so it starts with 'A'.
+ */
+*[class ~= "bookmap/chapter"] + *[class ~= "bookmap/appendix"] {
+  counter-reset: toc-chapter toc-section1;
+}
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "bookmap/part"] + *[class ~= "bookmap/appendix"][is-part],
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "bookmap/part"] + *[class ~= "bookmap/appendices"][is-part] {
+  counter-reset: toc-part toc-chapter toc-section1 !important;
+}
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "bookmap/chapter"] + *[class ~= "bookmap/appendix"] {
+  counter-reset: toc-chapter toc-section1 !important;
+}
+*[class ~= "map/map"][numbering ^= 'deep'] [class ~= "bookmap/appendix"][is-chapter]:not([is-part]) {
+  counter-increment: toc-chapter;
+}
+
+/* 
+ * Specific display for numbering='deep'
+ */
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "bookmap/appendix"][is-part] > *[class ~= "map/topicmeta"]:before,
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "bookmap/appendices"][is-part] > *[class ~= "map/topicmeta"]:before {
+  content: counter(toc-part, upper-latin) ". ";
+}
+
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "bookmap/appendix"][is-part] > *[class ~= "map/topicref"] > *[class ~= "map/topicmeta"]:before {
+  content: counter(toc-part, upper-latin) "." counter(toc-chapter) ". ";
+}
+
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "bookmap/appendix"][is-chapter]:not([is-part]) > *[class ~= "map/topicmeta"]:before {
+  content: counter(toc-chapter, upper-latin) ". ";
+}
+
+*[class ~= "map/map"][numbering ^= "deep"] *[class ~= "bookmap/appendix"][is-chapter]:not([is-part]) > *[class ~= "map/topicref"] > *[class ~= "map/topicmeta"]::before {
+  content: counter(toc-chapter, upper-latin) "." counter(toc-section1) ". ";
+}
+
+*[class ~= "map/map"][numbering ^= "deep"] *[class ~= "bookmap/appendix"][is-chapter]:not([is-part]) > *[class ~= "map/topicref"] > *[class ~= "map/topicref"] > *[class ~= "map/topicmeta"]::before {
+  content: counter(toc-chapter, upper-latin) "." counter(toc-section1) "." counter(toc-section2) ". ";
+}
+
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "bookmap/appendices"][is-chapter]:not([is-part]) > *[class ~= "map/topicmeta"]:before,
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "bookmap/appendices"][is-chapter]:not([is-part]) > *[class ~= "bookmap/appendix"] > *[class ~= "map/topicmeta"]:before {
+  content: none;
+}
+
+/*
+ * ======================================= 
+ *  List of figures. List of tables. 
+ */
+*[class ~= "map/map"][numbering ^= 'deep-chapter-scope'] *[class ~= "placeholder/figurelist"] *[is-appendix] *[class ~= "listentry/prefix"]:after {
+  content: " " target-counter(attr(href), chapter, upper-latin) "-" target-counter(attr(href), figcount) " ";
+}
+*[class ~= "map/map"][numbering ^= 'deep-chapter-scope'] *[class ~= "placeholder/tablelist"] *[is-appendix] *[class ~= "listentry/prefix"]:after {
+  content: " " target-counter(attr(href), chapter, upper-latin) "-" target-counter(attr(href), tablecount) " ";
+}
+
+/*
+ * ======================================= 
+ *  Content. 
+ */
+
+/*
+ * Reset the appendix counter (chapter counter) on the first appendix that follows a chapter, so it starts with 'A'.
+ * Matching the class that migrated from the topicref, as the class attribute is simply topic/topic.
+ */
+*[class ~= "topic/topic"][topicrefclass ~= "bookmap/part"] + *[topicrefclass ~= "bookmap/appendix"],
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/part"] + *[topicrefclass ~= "bookmap/appendix"] {
+  counter-reset: part 0 chapter 0 chapter-and-sections 0 section1 !important;
+}
+*[class ~= "topic/topic"][topicrefclass ~= "bookmap/chapter"] + *[topicrefclass ~= "bookmap/appendix"],
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/chapter"] + *[topicrefclass ~= "bookmap/appendix"] {
+  counter-reset: chapter 0 chapter-and-sections 0 section1 !important;
+}
+*[class ~= "map/map"][numbering ^= 'deep-chapter-scope'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/part"] + *[topicrefclass ~= "bookmap/appendix"],
+*[class ~= "map/map"][numbering ^= 'deep-chapter-scope'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/chapter"] + *[topicrefclass ~= "bookmap/appendix"] {
+  counter-reset: part 0 chapter 0 chapter-and-sections 0 page 1 section1 tablecount figcount !important;
+}
+*[class ~= "map/map"][numbering ^= 'deep-chapter-scope-no-page-reset'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/part"] + *[topicrefclass ~= "bookmap/appendix"],
+*[class ~= "map/map"][numbering ^= 'deep-chapter-scope-no-page-reset'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/chapter"] + *[topicrefclass ~= "bookmap/appendix"] {
+  counter-reset: part 0 chapter 0 chapter-and-sections 0 section1 tablecount figcount !important;
+}
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/appendix"][is-chapter]:not([is-part]) {
+  counter-increment: chapter chapter-and-sections;
+}
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/appendix"][is-part] > *[class ~= "topic/topic"] {
+  counter-increment: chapter-and-sections;
+}
+
+/* 
+ * Specific display for numbering='deep'
+ */
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/appendix"][is-part] > *[class ~= "topic/title"]:before,
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/appendices"][is-part] > *[class ~= "topic/title"]:before {
+  content: counter(part, upper-latin) ". ";
+}
+
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/appendix"][is-part] > *[class ~= "topic/topic"] > *[class ~= "topic/title"]:before {
+  content: counter(part, upper-latin) "." counter(chapter) ". ";
+}
+
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/appendices"][is-chapter]:not([is-part]) > *[class ~= "topic/title"]:before,
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "topic/topic"][is-chapter]:not([is-part]) > *[class ~= "topic/topic"][topicrefclass ~= "bookmap/appendix"] > *[class ~= "topic/title"]:before {
+  content: none;
+}
+
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/appendix"][is-chapter]:not([is-part]) > *[class ~= "topic/title"]:before {
+  content: counter(chapter, upper-latin) ". ";
+}
+
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/appendix"][is-chapter]:not([is-part]) > *[class ~= "topic/topic"] > *[class ~= "topic/title"]:before {
+  content: counter(chapter, upper-latin) "." counter(section1) ". ";
+}
+
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/appendix"][is-chapter]:not([is-part]) > *[class ~= "topic/topic"] > *[class ~= "topic/topic"] > *[class ~= "topic/title"]:before {
+  content: counter(chapter, upper-latin) "." counter(section1) "." counter(section2) ". ";
+}
+
+*[class ~= "map/map"][numbering ^= 'deep-chapter-scope'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/appendix"] *[class ~= "topic/table"] > caption > .table--title-label:after {
+  content: " " counter(chapter, upper-latin) "-" counter(tablecount) " ";
+}
+*[class ~= "map/map"][numbering ^= 'deep-chapter-scope'] *[class ~= "topic/topic"][topicrefclass ~= "bookmap/appendix"] *[class ~= "topic/fig"] > figcaption > .fig--title-label:after {
+  content: " " counter(chapter, upper-latin) "-" counter(figcount) " ";
+}

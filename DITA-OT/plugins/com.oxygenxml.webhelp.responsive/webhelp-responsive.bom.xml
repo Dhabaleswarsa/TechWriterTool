@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?><bom:bom xmlns:bom="http://cyclonedx.org/schema/bom/1.6" version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cyclonedx.org/schema/bom/1.6 https://raw.githubusercontent.com/CycloneDX/specification/refs/tags/1.6.1/schema/bom-1.6.xsd">
+  <bom:metadata>
+    <bom:timestamp>2026-01-20T15:57:48.794168793</bom:timestamp><bom:tools>
+      <bom:components>
+        <bom:component type="library">
+          <bom:author>Syncro Soft</bom:author>
+          <bom:group>com.oxygenxml</bom:group>
+          <bom:name>oxygen-com.oxygenxml.webhelp.responsive</bom:name>
+          <bom:version>28.0-SNAPSHOT</bom:version>
+          <bom:description><![CDATA[Generates a report providing details on any published vulnerabilities within project dependencies. This report is a best effort and may contain false positives and false negatives.]]></bom:description>
+        </bom:component>
+      </bom:components>
+    </bom:tools>
+    <bom:authors>
+      <bom:author>
+        <bom:name>Syncro Soft SRL</bom:name>
+        <bom:email>contact@sync.ro</bom:email>
+        <bom:phone>+40-251-461480</bom:phone>
+      </bom:author>
+    </bom:authors>
+    <bom:component bom-ref="d1e4" type="library">
+      <bom:name>oxygen-com.oxygenxml.webhelp.responsive</bom:name>
+      <bom:version>28.0-SNAPSHOT</bom:version><bom:description/>
+      <bom:purl>pkg:maven/com.oxygenxml/oxygen-com.oxygenxml.webhelp.responsive@28.0-SNAPSHOT</bom:purl>
+    </bom:component>
+  </bom:metadata>
+  <bom:components>
+    <bom:component bom-ref="d1e13" type="library">
+      <bom:group>popperjs</bom:group>
+      <bom:name>core</bom:name>
+      <bom:version>2.11.8</bom:version>
+      <bom:description><![CDATA[Tooltip and Popover Positioning Engine]]></bom:description>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>MIT</bom:id>
+          <bom:url>https://opensource.org/license/mit/</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:npm/@popperjs/core@2.11.8</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">@popperjs/core:2.11.8</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?/@popperjs/core:2.11.8</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e64" type="library">
+      <bom:group>types</bom:group>
+      <bom:name>trusted-types</bom:name>
+      <bom:version>2.0.7</bom:version>
+      <bom:description><![CDATA[TypeScript definitions for trusted-types]]></bom:description>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>MIT</bom:id>
+          <bom:url>https://opensource.org/license/mit/</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:npm/@types/trusted-types@2.0.7</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">@types/trusted-types:2.0.7</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?/@types/trusted-types:2.0.7</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e107" type="library">
+      <bom:group>ant-contrib</bom:group>
+      <bom:name>ant-contrib</bom:name>
+      <bom:version>1.0b3</bom:version>
+      <bom:description><![CDATA[A collection of tasks (and at one point maybe types and other tools) for Apache Ant]]></bom:description>
+      <bom:hashes>
+        <bom:hash alg="MD5">a6495d687a143cbaefa2ab812c69b42e</bom:hash>
+        <bom:hash alg="SHA-1">943cd5c8802b2a3a64a010efb86ec19bac142e40</bom:hash>
+        <bom:hash alg="SHA-256">be33a69818310b5c55e41dc11d48cd895f5f129da4b0d28c2f4c6c3e1cbcf3fc</bom:hash>
+      </bom:hashes>
+      <bom:purl>pkg:maven/ant-contrib/ant-contrib@1.0b3</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">ant-contrib-1.0b3.jar</bom:property>
+        <bom:property name="o-1-file-path">/home/jenkins/.m2/repository/ant-contrib/ant-contrib/1.0b3/ant-contrib-1.0b3.jar</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e184" type="library">
+      <bom:name>async</bom:name>
+      <bom:version>3.2.6</bom:version>
+      <bom:description><![CDATA[Higher-order functions and common patterns for asynchronous code]]></bom:description>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>MIT</bom:id>
+          <bom:url>https://opensource.org/license/mit/</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:npm/async@3.2.6</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">async:3.2.6</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?kuromoji:0.1.2/async:3.2.6</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e231" type="library">
+      <bom:name>bootpag</bom:name>
+      <bom:version>1.0.7</bom:version>
+      <bom:description><![CDATA[bootpag - dynamic pagination jQuery plugin. Works well with bootstrap or standalone.]]></bom:description>
+      <bom:purl>pkg:npm/bootpag@1.0.7</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">bootpag:1.0.7</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?/bootpag:1.0.7</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e293" type="library">
+      <bom:name>bootstrap</bom:name>
+      <bom:version>5.3.8</bom:version>
+      <bom:description><![CDATA[The most popular front-end framework for developing responsive, mobile first projects on the web.]]></bom:description>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>MIT</bom:id>
+          <bom:url>https://opensource.org/license/mit/</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:npm/bootstrap@5.3.8</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">bootstrap:5.3.8</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?/bootstrap:5.3.8</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e344" type="library">
+      <bom:name>dompurify</bom:name>
+      <bom:version>3.2.7</bom:version>
+      <bom:description><![CDATA[DOMPurify is a DOM-only, super-fast, uber-tolerant XSS sanitizer for HTML, MathML and SVG. It's written in JavaScript and works in all modern browsers (Safari, Opera (15+), Internet Explorer (10+), Firefox and Chrome - as well as almost anything else using Blink or WebKit). DOMPurify is written by security people who have vast background in web attacks and XSS. Fear not.]]></bom:description>
+      <bom:purl>pkg:npm/dompurify@3.2.7</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">dompurify:3.2.7</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?/dompurify:3.2.7</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e398" type="library">
+      <bom:name>doublearray</bom:name>
+      <bom:version>0.0.2</bom:version>
+      <bom:description><![CDATA[JavaScript implementation of Double-Array trie]]></bom:description>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>MIT</bom:id>
+          <bom:url>https://opensource.org/license/mit/</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:npm/doublearray@0.0.2</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">doublearray:0.0.2</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?/doublearray:0.0.2</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e445" type="library">
+      <bom:group>net.sourceforge.htmlcleaner</bom:group>
+      <bom:name>htmlcleaner</bom:name>
+      <bom:version>2.29</bom:version>
+      <bom:description><![CDATA[
+        HtmlCleaner is an HTML parser written in Java. It transforms dirty HTML to well-formed XML following
+        the same rules that most web-browsers use.
+    ]]></bom:description>
+      <bom:hashes>
+        <bom:hash alg="MD5">ece733fa0697d2d25d8dfcbd7f257a66</bom:hash>
+        <bom:hash alg="SHA-1">7b42d564b7d2a4674612ef0ec3696985cbd38343</bom:hash>
+        <bom:hash alg="SHA-256">4a55def81fee6dc322e601b012d728f6b4f47f3fe4506b7408b6b20bbd07d99b</bom:hash>
+      </bom:hashes>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>BSD-3-Clause</bom:id>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:maven/net.sourceforge.htmlcleaner/htmlcleaner@2.29</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">htmlcleaner-2.29.jar</bom:property>
+        <bom:property name="o-1-file-path">/home/jenkins/.m2/repository/net/sourceforge/htmlcleaner/htmlcleaner/2.29/htmlcleaner-2.29.jar</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e617" type="library">
+      <bom:name>image-map</bom:name>
+      <bom:version>2.0.1</bom:version>
+      <bom:description><![CDATA[Response, dynamic image maps]]></bom:description>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>Apache-2.0</bom:id>
+          <bom:url>https://www.apache.org/licenses/LICENSE-2.0</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:npm/image-map@2.0.1</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">image-map:2.0.1</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?/image-map:2.0.1</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e672" type="library">
+      <bom:name>jquery-highlight</bom:name>
+      <bom:version>3.5.0</bom:version>
+      <bom:description><![CDATA[Text highlighting plugin for jQuery]]></bom:description>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>MIT</bom:id>
+          <bom:url>https://opensource.org/license/mit/</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:npm/jquery-highlight@3.5.0</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">jquery-highlight:3.5.0</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?/jquery-highlight:3.5.0</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e720" type="library">
+      <bom:name>jquery-ui</bom:name>
+      <bom:version>1.14.1</bom:version>
+      <bom:description><![CDATA[A curated set of user interface interactions, effects, widgets, and themes built on top of the jQuery JavaScript Library.]]></bom:description>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>MIT</bom:id>
+          <bom:url>https://opensource.org/license/mit/</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:npm/jquery-ui@1.14.1</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">jquery-ui:1.14.1</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?/jquery-ui:1.14.1</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e833" type="library">
+      <bom:name>jquery</bom:name>
+      <bom:version>3.7.1</bom:version>
+      <bom:description><![CDATA[JavaScript library for DOM operations]]></bom:description>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>MIT</bom:id>
+          <bom:url>https://opensource.org/license/mit/</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:npm/jquery@3.7.1</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">jquery:3.7.1</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?/jquery:3.7.1</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e884" type="library">
+      <bom:name>kuromoji</bom:name>
+      <bom:version>0.1.2</bom:version>
+      <bom:description><![CDATA[JavaScript implementation of Japanese morphological analyzer]]></bom:description>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>Apache-2.0</bom:id>
+          <bom:url>https://www.apache.org/licenses/LICENSE-2.0</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:npm/kuromoji@0.1.2</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">kuromoji:0.1.2</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?/kuromoji:0.1.2</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e935" type="library">
+      <bom:publisher>The Apache Software Foundation</bom:publisher>
+      <bom:group>org.apache.lucene</bom:group>
+      <bom:name>lucene-analysis-common</bom:name>
+      <bom:version>9.12.3</bom:version>
+      <bom:description><![CDATA[Apache Lucene (module: common)]]></bom:description>
+      <bom:hashes>
+        <bom:hash alg="MD5">4e965a28f0ce7fb8cd9351d023747599</bom:hash>
+        <bom:hash alg="SHA-1">1c25766443c63d4b75c4acb5d2ae162a67d6f937</bom:hash>
+        <bom:hash alg="SHA-256">fa571bd7caf0f0b4faf46a72ca004a7836f348c31d92bd522dddcc3d128d287e</bom:hash>
+      </bom:hashes>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>Apache-2.0</bom:id>
+          <bom:url>https://www.apache.org/licenses/LICENSE-2.0</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:maven/org.apache.lucene/lucene-analysis-common@9.12.3</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">lucene-analysis-common-9.12.3.jar</bom:property>
+        <bom:property name="o-1-file-path">/home/jenkins/.m2/repository/org/apache/lucene/lucene-analysis-common/9.12.3/lucene-analysis-common-9.12.3.jar</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e1062" type="library">
+      <bom:publisher>The Apache Software Foundation</bom:publisher>
+      <bom:group>org.apache.lucene</bom:group>
+      <bom:name>lucene-analysis-kuromoji</bom:name>
+      <bom:version>9.12.3</bom:version>
+      <bom:description><![CDATA[Apache Lucene (module: kuromoji)]]></bom:description>
+      <bom:hashes>
+        <bom:hash alg="MD5">79840f44abe7b7960d15e27ed8fe85e0</bom:hash>
+        <bom:hash alg="SHA-1">2bccb5ff38ed05b141f415ca8e451b8c10bfd182</bom:hash>
+        <bom:hash alg="SHA-256">fb4999a9b9eb136e31774013ab24c8a32848bd943d0352aa180425f686963142</bom:hash>
+      </bom:hashes>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>Apache-2.0</bom:id>
+          <bom:url>https://www.apache.org/licenses/LICENSE-2.0</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:maven/org.apache.lucene/lucene-analysis-kuromoji@9.12.3</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">lucene-analysis-kuromoji-9.12.3.jar</bom:property>
+        <bom:property name="o-1-file-path">/home/jenkins/.m2/repository/org/apache/lucene/lucene-analysis-kuromoji/9.12.3/lucene-analysis-kuromoji-9.12.3.jar</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e1189" type="library">
+      <bom:publisher>The Apache Software Foundation</bom:publisher>
+      <bom:group>org.apache.lucene</bom:group>
+      <bom:name>lucene-core</bom:name>
+      <bom:version>9.12.3</bom:version>
+      <bom:description><![CDATA[Apache Lucene (module: core)]]></bom:description>
+      <bom:hashes>
+        <bom:hash alg="MD5">47481642ad6c80af767bc73618a0eb43</bom:hash>
+        <bom:hash alg="SHA-1">b4b3fbe8608b438d0a810d15187498e6de974d0e</bom:hash>
+        <bom:hash alg="SHA-256">b64a3f8098a7572034fb30085cdee01b34ec81fb0e5a31b471536af58dc6c01b</bom:hash>
+      </bom:hashes>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>Apache-2.0</bom:id>
+          <bom:url>https://www.apache.org/licenses/LICENSE-2.0</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:maven/org.apache.lucene/lucene-core@9.12.3</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">lucene-core-9.12.3.jar</bom:property>
+        <bom:property name="o-1-file-path">/home/jenkins/.m2/repository/org/apache/lucene/lucene-core/9.12.3/lucene-core-9.12.3.jar</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e1328" type="library">
+      <bom:name>maphilight</bom:name>
+      <bom:version>1.4.2</bom:version>
+      <bom:description><![CDATA[a plugin that adds visual hilights to image maps]]></bom:description>
+      <bom:purl>pkg:npm/maphilight@1.4.2</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">maphilight:1.4.2</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?/maphilight:1.4.2</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e1381" type="library">
+      <bom:publisher>Syncro Soft SRL</bom:publisher>
+      <bom:group>com.oxygenxml</bom:group>
+      <bom:name>oxygen-annotations</bom:name>
+      <bom:version>28.0-SNAPSHOT</bom:version>
+      <bom:description><![CDATA[Java annotations used in Oxygen]]></bom:description>
+      <bom:hashes>
+        <bom:hash alg="MD5">e27a3a81a3ef31268f892675c979140b</bom:hash>
+        <bom:hash alg="SHA-1">bf42ec63b1a5e8d302d955a4f95c1e559fb5727c</bom:hash>
+        <bom:hash alg="SHA-256">ace3accdac4b8758f61bc50945c0ea27272fa35b4e762615eac96fa53f1fc258</bom:hash>
+      </bom:hashes>
+      <bom:purl>pkg:maven/com.oxygenxml/oxygen-annotations@28.0-SNAPSHOT</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">oxygen-annotations-28.0-SNAPSHOT.jar</bom:property>
+        <bom:property name="o-1-file-path">/home/jenkins/.m2/repository/com/oxygenxml/oxygen-annotations/28.0-SNAPSHOT/oxygen-annotations-28.0-SNAPSHOT.jar</bom:property>
+        <bom:property name="o-1-internal-origin">true</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e1509" type="library">
+      <bom:publisher>Syncro Soft SRL</bom:publisher>
+      <bom:group>com.oxygenxml</bom:group>
+      <bom:name>oxygen-basic-utilities</bom:name>
+      <bom:version>28.0-SNAPSHOT</bom:version>
+      <bom:description><![CDATA[A basic utility package.]]></bom:description>
+      <bom:hashes>
+        <bom:hash alg="MD5">ed7644fc1b497f0311e52556e8c445e3</bom:hash>
+        <bom:hash alg="SHA-1">611fd4bd4a882fff207148b8be48cf5b6819f402</bom:hash>
+        <bom:hash alg="SHA-256">da30c461fc39840b9287a1accf9e60623f0f8df6a1008d2c611142636111174d</bom:hash>
+      </bom:hashes>
+      <bom:purl>pkg:maven/com.oxygenxml/oxygen-basic-utilities@28.0-SNAPSHOT</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">oxygen-basic-utilities-28.0-SNAPSHOT.jar</bom:property>
+        <bom:property name="o-1-file-path">/home/jenkins/.m2/repository/com/oxygenxml/oxygen-basic-utilities/28.0-SNAPSHOT/oxygen-basic-utilities-28.0-SNAPSHOT.jar</bom:property>
+        <bom:property name="o-1-internal-origin">true</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e1629" type="library">
+      <bom:publisher>Syncro Soft SRL</bom:publisher>
+      <bom:group>com.oxygenxml</bom:group>
+      <bom:name>oxygen-publishing-template</bom:name>
+      <bom:version>28.0-SNAPSHOT</bom:version>
+      <bom:description><![CDATA[Reads the descriptor associated with the oXygen Publishing Template]]></bom:description>
+      <bom:hashes>
+        <bom:hash alg="MD5">f0c3b5fcf6872b0ad576edfa7b2d0408</bom:hash>
+        <bom:hash alg="SHA-1">4253dd464bdd8a5407ff9ada9a3ecdfd5b3e200f</bom:hash>
+        <bom:hash alg="SHA-256">b03f1e1cd3ba6543e1dcf47df955f62b9ae55cb437c08d42152f0fecbe075c97</bom:hash>
+      </bom:hashes>
+      <bom:purl>pkg:maven/com.oxygenxml/oxygen-publishing-template@28.0-SNAPSHOT</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">oxygen-publishing-template-28.0-SNAPSHOT.jar</bom:property>
+        <bom:property name="o-1-file-path">/home/jenkins/.m2/repository/com/oxygenxml/oxygen-publishing-template/28.0-SNAPSHOT/oxygen-publishing-template-28.0-SNAPSHOT.jar</bom:property>
+        <bom:property name="o-1-internal-origin">true</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e1786" type="library">
+      <bom:publisher>Syncro Soft SRL</bom:publisher>
+      <bom:group>com.oxygenxml</bom:group>
+      <bom:name>oxygen-webhelp-indexer</bom:name>
+      <bom:version>28.0-SNAPSHOT</bom:version>
+      <bom:description><![CDATA[
+		WebHelp Indexer parse a set of HTML files and generates an index database. 
+		The index is used by the WH Classic and WH Responsive search engines.]]></bom:description>
+      <bom:hashes>
+        <bom:hash alg="MD5">017422a389be79afd1fee5613d10b2a7</bom:hash>
+        <bom:hash alg="SHA-1">fb4efb8a506f38c2778fbfa8cbad81c43fe92b1e</bom:hash>
+        <bom:hash alg="SHA-256">53038baca8a7ee18a8491e56ba08c2e65e8d4eb5b0a6795ee78c62c51d0beaeb</bom:hash>
+      </bom:hashes>
+      <bom:purl>pkg:maven/com.oxygenxml/oxygen-webhelp-indexer@28.0-SNAPSHOT</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">oxygen-webhelp-indexer-28.0-SNAPSHOT.jar</bom:property>
+        <bom:property name="o-1-file-path">/home/jenkins/.m2/repository/com/oxygenxml/oxygen-webhelp-indexer/28.0-SNAPSHOT/oxygen-webhelp-indexer-28.0-SNAPSHOT.jar</bom:property>
+        <bom:property name="o-1-internal-origin">true</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e1927" type="library">
+      <bom:publisher>Syncro Soft SRL</bom:publisher>
+      <bom:group>com.oxygenxml</bom:group>
+      <bom:name>oxygen-license</bom:name>
+      <bom:version>28.0-SNAPSHOT</bom:version><bom:description/>
+      <bom:hashes>
+        <bom:hash alg="MD5">d2a850cdde3635725fddbd6ff7030b3f</bom:hash>
+        <bom:hash alg="SHA-1">cfc90fae67adbb12f6689606238c28a37b92325a</bom:hash>
+        <bom:hash alg="SHA-256">c1f271aef054c3ef267eabf839ab7801aac9b356a9ac16be6005e055e113382a</bom:hash>
+      </bom:hashes>
+      <bom:purl>pkg:maven/com.oxygenxml/oxygen-license@28.0-SNAPSHOT</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">oxygen-webhelp-license-28.0-SNAPSHOT.jar (shaded: com.oxygenxml:oxygen-license:28.0-SNAPSHOT)</bom:property>
+        <bom:property name="o-1-file-path">/home/jenkins/.m2/repository/com/oxygenxml/oxygen-webhelp-license/28.0-SNAPSHOT/oxygen-webhelp-license-28.0-SNAPSHOT.jar/META-INF/maven/com.oxygenxml/oxygen-license/pom.xml</bom:property>
+        <bom:property name="o-1-internal-origin">true</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e1960" type="library">
+      <bom:publisher>Syncro Soft SRL</bom:publisher>
+      <bom:group>com.oxygenxml</bom:group>
+      <bom:name>oxygen-webhelp-license</bom:name>
+      <bom:version>28.0-SNAPSHOT</bom:version>
+      <bom:description><![CDATA[A basic package that let you verify licenses for the WebHelp.]]></bom:description>
+      <bom:hashes>
+        <bom:hash alg="MD5">4f5579ff999950fe67dfc12ef11cb545</bom:hash>
+        <bom:hash alg="SHA-1">2a533caf8ba264410b0c166406804e458e2ec53c</bom:hash>
+        <bom:hash alg="SHA-256">e09fcebe14576493850b2f524e4efd31d09b051c9d645e6e3cfaae34bb76312b</bom:hash>
+      </bom:hashes>
+      <bom:purl>pkg:maven/com.oxygenxml/oxygen-webhelp-license@28.0-SNAPSHOT</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">oxygen-webhelp-license-28.0-SNAPSHOT.jar</bom:property>
+        <bom:property name="o-1-file-path">/home/jenkins/.m2/repository/com/oxygenxml/oxygen-webhelp-license/28.0-SNAPSHOT/oxygen-webhelp-license-28.0-SNAPSHOT.jar</bom:property>
+        <bom:property name="o-1-internal-origin">true</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e2096" type="library">
+      <bom:publisher>Syncro Soft SRL</bom:publisher>
+      <bom:group>com.oxygenxml</bom:group>
+      <bom:name>oxygen-webhelp-xerces-patches</bom:name>
+      <bom:version>28.0-SNAPSHOT</bom:version>
+      <bom:description><![CDATA[Some patches for Xerces distributed with WebHelp Responsive and Classic plugins.]]></bom:description>
+      <bom:hashes>
+        <bom:hash alg="MD5">6d676223dd90965c86b9dc08449404f3</bom:hash>
+        <bom:hash alg="SHA-1">17f42f65a40963003d948f7aec11dc6caa9bdced</bom:hash>
+        <bom:hash alg="SHA-256">4bff7f9b2068cb85fe231a3551e271545b61442e4705cfff27883d33d57b3b1c</bom:hash>
+      </bom:hashes>
+      <bom:purl>pkg:maven/com.oxygenxml/oxygen-webhelp-xerces-patches@28.0-SNAPSHOT</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">oxygen-webhelp-xerces-patches-28.0-SNAPSHOT.jar</bom:property>
+        <bom:property name="o-1-file-path">/home/jenkins/.m2/repository/com/oxygenxml/oxygen-webhelp-xerces-patches/28.0-SNAPSHOT/oxygen-webhelp-xerces-patches-28.0-SNAPSHOT.jar</bom:property>
+        <bom:property name="o-1-internal-origin">true</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e2249" type="library">
+      <bom:name>path-browserify</bom:name>
+      <bom:version>1.0.1</bom:version>
+      <bom:description><![CDATA[the path module from node core for browsers]]></bom:description>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>MIT</bom:id>
+          <bom:url>https://opensource.org/license/mit/</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:npm/path-browserify@1.0.1</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">path-browserify:1.0.1</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?/path-browserify:1.0.1</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e2304" type="library">
+      <bom:name>regenerator-runtime</bom:name>
+      <bom:version>0.14.1</bom:version>
+      <bom:description><![CDATA[Runtime for Regenerator-compiled generator and async functions.]]></bom:description>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>MIT</bom:id>
+          <bom:url>https://opensource.org/license/mit/</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:npm/regenerator-runtime@0.14.1</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">regenerator-runtime:0.14.1</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?/regenerator-runtime:0.14.1</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e2347" type="library">
+      <bom:group>org.slf4j</bom:group>
+      <bom:name>slf4j-api</bom:name>
+      <bom:version>2.0.17</bom:version>
+      <bom:description><![CDATA[The slf4j API]]></bom:description>
+      <bom:hashes>
+        <bom:hash alg="MD5">b6480d114a23683498ac3f746f959d2f</bom:hash>
+        <bom:hash alg="SHA-1">d9e58ac9c7779ba3bf8142aff6c830617a7fe60f</bom:hash>
+        <bom:hash alg="SHA-256">7b751d952061954d5abfed7181c1f645d336091b679891591d63329c622eb832</bom:hash>
+      </bom:hashes>
+      <bom:purl>pkg:maven/org.slf4j/slf4j-api@2.0.17</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">slf4j-api-2.0.17.jar</bom:property>
+        <bom:property name="o-1-file-path">/home/jenkins/.m2/repository/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar</bom:property>
+      </bom:properties>
+    </bom:component>
+    <bom:component bom-ref="d1e2481" type="library">
+      <bom:name>zlibjs</bom:name>
+      <bom:version>0.3.1</bom:version>
+      <bom:description><![CDATA[zlib, gzip and zip implementation in JavaScript]]></bom:description>
+      <bom:licenses>
+        <bom:license>
+          <bom:id>MIT</bom:id>
+          <bom:url>https://opensource.org/license/mit/</bom:url>
+        </bom:license>
+      </bom:licenses>
+      <bom:purl>pkg:npm/zlibjs@0.3.1</bom:purl>
+      <bom:properties>
+        <bom:property name="o-1-file-name">zlibjs:0.3.1</bom:property>
+        <bom:property name="o-1-file-path">/com.oxygenxml.webhelp.responsive/src/main/package-lock.json?/zlibjs:0.3.1</bom:property>
+      </bom:properties>
+    </bom:component>
+  </bom:components>
+</bom:bom>

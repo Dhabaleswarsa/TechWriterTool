@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Oxygen Webhelp plugin
+Copyright (c) 1998-2025 Syncro Soft SRL, Romania.  All rights reserved.
+Licensed under the terms stated in the license file EULA_Webhelp.txt 
+available in the base directory of this Oxygen Webhelp plugin.
+
+Translation strings for CN Chinese language.
+-->
+<variables><!-- Label for the Markdown Export menu. -->
+   <variable id="mdExportMenu" js="true" php="false">Markdown 导出菜单</variable>
+   <variable id="copyMd" js="true" php="false">复制为 Markdown</variable>
+   <variable id="copyMdDesc" js="true" php="false">将主题复制为适用于 LLM 的 Markdown</variable>
+   <variable id="copyMdDescLocal" js="true" php="false">仅在 HTTP 服务器上可用</variable>
+   <variable id="viewMd" js="true" php="false">以 Markdown 查看</variable>
+   <variable id="viewMdDesc" js="true" php="false">以纯文本查看主题</variable>
+   <!-- Label for the switch theme button. -->
+   <variable id="switchTheme" js="true" php="false">切换主题</variable>
+   <!-- Label for the page full width action available in the topic page. -->
+   <variable id="enterFullscreen" js="true" php="false">最大化至全宽</variable>
+   <variable id="exitFullscreen" js="true" php="false">恢复至正常宽度</variable>
+   <variable id="label.see" js="true" php="false">见</variable>
+   <variable id="label.see_also" js="true" php="false">参见</variable>
+   <!--
+    Placeholder for the search input when feedback search summary is activated.
+ -->
+   <variable id="ask.me.anything" js="true" php="false">随便问我</variable>
+   <!-- Message displayed when user hovers over go to top button. -->
+   <variable id="go.to.top" js="true" php="false">返回顶部</variable>
+   <!-- Message displayed when user hovers over advanced search tooltip. -->
+   <variable id="advanced_search_tooltip_title" js="true" php="false">搜索语法帮助</variable>
+   <!-- Message displayed in the search page for the button that resets the filters. -->
+   <variable id="reset_search_filters" js="true" php="false">重置</variable>
+   <!-- Message displayed in the search page as a header to a section where the user can select what filters to apply. -->
+   <variable id="search_filters" js="true" php="false">过滤器</variable>
+   <!--
+      Message displayed if the feedback search engine index is not ready.
+   -->
+   <variable id="indexing_in_progress" js="true" php="false">索引过程正在进行。请稍后再试。</variable>
+   <!--
+      Message displayed if the feedback search engine index is not ready.
+   -->
+   <variable id="search_index_not_found" js="true" php="false">找不到执行搜索查询的内容索引。</variable>
+   <!--
+      Label for the 'Index Terms' page title.
+   -->
+   <variable id="index.terms.page.title" js="true" php="false">索引项</variable>
+   <!--
+      Used as header for user type column.
+   -->
+   <variable id="admin.user.type" js="false" php="true">类型</variable>
+   <!--
+      Used as aria-label for toggle menu button.
+   -->
+   <variable id="toggle.menu" js="true" php="false">切换菜单</variable>
+   <!--
+      Used as aria-label for insert comment textarea.
+   -->
+   <variable id="label.cleditorControls" js="true" php="false">插入您的评论。按Alt+S提交评论，或按Alt+`放弃评论。</variable>
+   <!--
+      Close dialog accesibility marker.
+   -->
+   <variable id="label.closeDialog" js="true" php="false">关闭对话框</variable>
+   <!--
+      Used to compose aria label for an index term.
+      index term: text.
+   -->
+   <variable id="index.term" js="true" php="false">索引项</variable>
+   <!--
+      Aria label for index terms alphabet. It is used in index terms page.
+   -->
+   <variable id="index.terms.alphabet" js="true" php="false">索引术语字母表</variable>
+   <!--
+      Aria label for index terms group letter. It is used in index terms page.
+   -->
+   <variable id="index.terms.for.letter" js="true" php="false">字母索引术语组</variable>
+   <!--
+      Expand action for the foldable content sections
+   -->
+   <variable id="expand" js="true" php="false">展开</variable>
+   <!--
+      Collapse action for the foldable content sections
+   -->
+   <variable id="collapse" js="true" php="false">重叠</variable>
+   <!--
+      Search field accesibility marker.
+   -->
+   <variable id="search.query" js="true" php="false">搜索查询</variable>
+   <!--
+      Label displayed in the search page as "Skip to main content" link.
+   -->
+   <variable id="jump.to.results" js="true" php="false">跳转到搜索结果</variable>
+   <!--
+      Label displayed in the index terms page as "Skip to main content" link.
+   -->
+   <variable id="jump.to.index" js="true" php="false">跳转到索引列表</variable>
+   <!--
+      Label displayed in the main page and topic page as "Skip to main content" link.
+   -->
+   <variable id="jump.to.content" js="true" php="false">跳转到主要内容</variable>
+   <!--
+      Label displayed in the search page as caption for the "Next" page button.
+   -->
+   <variable id="next.page" js="true" php="false">下一个</variable>
+   <!--
+      Label displayed in the search page as caption for the "Previous" page button.
+   -->
+   <variable id="prev.page" js="true" php="false">上一个</variable>
+   <!--
+      Label displayed in the topic page as caption for the topic TOC component.
+   -->
+   <variable id="on_this_page" js="true" php="false">在本页上</variable>
+   <!--
+      Label displayed in the publication TOC component when compact mode is on (some topics are hidden).
+   -->
+   <variable id="more" js="true" php="false">更多</variable>
+   <!--
+      Label for the 'Expand sections' action available in topic page.
+   -->
+   <variable id="expandSections" js="true" php="false">展开章节</variable>
+   <!--
+      Label for the 'Collapse sections' action available in the topic page.
+   -->
+   <variable id="collapseSections" js="true" php="false">折叠截面</variable>
+   <!--
+      Label for the 'Toggle search highlights' action available in the topic page to remove/add search highlights.
+   -->
+   <variable id="toggleHighlights" js="true" php="false">切换搜索突出显示</variable>
+   <!--
+      Search page label displayed when similar page(s) results are available.      
+   -->
+   <variable id="Similar results" js="true" php="false">类似结果</variable>
+   <!--
+      Label displayed by default in the page footer.      
+   -->
+   <variable id="Output generated by" js="true" php="false">产生者</variable>
+   <!--
+      Used to display the current page number in WebHelp search page. Page 5/16      
+   -->
+   <variable id="Page" js="true" php="false">页面</variable>
+   <!--
+      Used to display the search result.
+      It is a compound message with the form: 26 documents found for word1 word2.
+   -->
+   <variable id="Results for:" js="true" php="false">找到的文档</variable>
+   <!-- 
+      Label displayed in the search page when the query string contains only stop words. 
+   -->
+   <variable id="no_results_only_stop_words1" js="true" php="false">未找到任何结果，因为搜索查询仅包含搜索引擎排除的“停止词”。</variable>
+   <!-- 
+      Label displayed in the search page when the query string contains only stop words. 
+   -->
+   <variable id="no_results_only_stop_words2" js="true" php="false">停止词是非常常见的词或形容词，阻碍搜索工作。诸如“of”、“the”、“by”等词。</variable>
+   <!-- 
+      Label displayed in the search page when a search result has some missing words. 
+   -->
+   <variable id="missing" js="true" php="false">丢失</variable>
+   <!-- 
+      Label displayed in the topic page for the breadcrumb component. 
+   -->
+   <variable id="label.home" js="true" php="false">主页</variable>
+   <!--
+      Placeholder for the search input.
+   -->
+   <variable id="webhelp.search" js="true" php="false">搜索</variable>
+   <!--
+      Label for the 'Index Terms' action.
+   -->
+   <variable id="webhelp.index" js="true" php="false">索引</variable>
+   <!--
+      Label for the 'Index Terms' action used by screen readers (aria-label attribute).
+   -->
+   <variable id="webhelp.index.aria.label" js="true" php="false">转到索引术语页</variable>
+   <variable id="label.shareFrom" js="true" php="false">如果您已经拥有下列任何产品的用户帐户，则可以使用该帐户登录。</variable>
+   <variable id="label.unconfirmedUsers" js="true" php="false">未确认用户</variable>
+   <variable id="label.cleanUsers" js="true" php="false">删除挂起的用户</variable>
+   <variable id="label.tc.userName" js="true" php="true">用户</variable>
+   <variable id="label.tc.name" js="true" php="true">姓名</variable>
+   <variable id="label.tc.email" js="true" php="true">电子邮件</variable>
+   <variable id="label.invertSel" js="true" php="false">反相选取</variable>
+   <variable id="label.invalidPosts" js="true" php="false">帖子页面无效</variable>
+   <variable id="label.cleanComments" js="true" php="false">删除孤立评论</variable>
+   <variable id="label.cleanCommentsTooltip" js="true" php="false">删除与不再可用的主题关联的注释评论</variable>
+   <variable id="label.cleanUsersTooltip" js="true" php="false">删除超过7天的未确认用户</variable>
+   <variable id="label.viewAllPostsTooltip" js="true" php="false">选择需要显示评论的合适产品/版本</variable>
+   <variable id="label.exportTooltip" js="true" php="false">选择需要将评论导出为XML格式的合适产品/版本</variable>
+   <variable id="label.setVersionTooltip" js="true" php="false">评论将仅对从所选版本开始的产品版本可用。</variable>
+   <variable id="label.fbUnavailable" js="true" php="false">反馈系统已禁用！请与WebHelp系统管理员联系。</variable>
+   <variable id="label.removeInst" js="true" php="false">安装完成后，必须删除包含安装脚本的文件夹！</variable>
+   <variable id="label.plsRemoveInstall" js="true" php="false">请与系统管理员联系，通过删除安装文件夹来完成webhelp安装！</variable>
+   <variable id="configInvalid" js="true" php="false">配置文件无效-请先运行安装！</variable>
+   <variable id="webhelp.content" js="true" php="false">内容</variable>
+   <variable id="oldFrames" js="true" php="false">带框架</variable>
+   <variable id="IndexFilterPlaceholder" js="true" php="false">筛选索引项</variable>
+   <variable id="SearchResults" js="true" php="false">搜索结果</variable>
+   <variable id="Loading, please wait ..." js="true" php="false">正在加载，请稍候...</variable>
+   <variable id="Search no results" js="true" php="false">您的搜索未返回</variable>
+   <variable id="There is no page containing all the search terms."
+             js="true"
+             php="false">没有包含所有检索词的页面。</variable>
+   <variable id="Partial results:" js="true" php="false">部分结果：</variable>
+   <variable id="Search string can&apos;t be void" js="true" php="false">检索字符串不能为空</variable>
+   <variable id="Search string must have at least two characters"
+             js="true"
+             php="false">检索字符串必须至少包含两个字符</variable>
+   <variable id="Only first 10 words will be processed." js="true" php="false">只处理前10个字。</variable>
+   <variable id="Your browser is not supported. Use of Mozilla Firefox is recommended."
+             js="true"
+             php="false">不支持您的浏览器。建议使用Mozilla Firefox。</variable>
+   <variable id="linkToThis" js="true" php="false">链接到此页</variable>
+   <variable id="ExpandAll" js="true" php="false">展开所有主题</variable>
+   <variable id="printThisPage" js="true" php="false">打印此页</variable>
+   <variable id="CollapseAll" js="true" php="false">折叠所有主题</variable>
+   <variable id="label.confirmOk" js="true" php="false">完成成功！</variable>
+   <variable id="label.currentPwd" js="true" php="false">当前密码</variable>
+   <variable id="label.Unsaved" js="true" php="false">如果您离开此页，任何未保存的数据都将丢失。</variable>
+   <variable id="label.captcha" js="true" php="false">输入如下所示的验证码：</variable>
+   <variable id="label.welcome" js="true" php="false">欢迎光临</variable>
+   <variable id="label.close" js="true" php="false">关闭</variable>
+   <variable id="label.cancel" js="true" php="false">取消</variable>
+   <variable id="label.logAdmin" js="true" php="false">以“版主”用户身份登录</variable>
+   <variable id="label.guest" js="true" php="false">来宾</variable>
+   <variable id="label.admin" js="true" php="false">管理器</variable>
+   <variable id="label.administrator" js="true" php="false">管理员</variable>
+   <variable id="label.admin.title" js="true" php="false">管理页面</variable>
+   <variable id="label.moderator" js="true" php="false">版主</variable>
+   <variable id="label.user" js="true" php="false">用户</variable>
+   <variable id="label.userProfile" js="true" php="true">用户配置文件</variable>
+   <variable id="noDataAvailable" js="true" php="true">无可用数据</variable>
+   <variable id="label.yourName" js="true" php="false">您的名字</variable>
+   <variable id="label.yourEmail" js="true" php="false">您的电子邮件地址</variable>
+   <variable id="label.IwantEmail" js="true" php="false">我想在何时收到电子邮件</variable>
+   <variable id="label.commentPage" js="true" php="false">在我评论的页面上留下了评论</variable>
+   <variable id="label.commentTopic" js="true" php="false">对帮助系统中的任何主题都保留一条评论</variable>
+   <variable id="label.commentMy" js="true" php="false">我的一条评论留下了一个回复</variable>
+   <variable id="label.apply" js="true" php="false">应用更改</variable>
+   <variable id="label.newPwd" js="true" php="false">新密码</variable>
+   <variable id="label.reNewPwd" js="true" php="false">重新键入新密码</variable>
+   <variable id="label.chPwd" js="true" php="false">修改密码</variable>
+   <variable id="label.comments" js="true" php="false">评论</variable>
+   <variable id="label.login" js="true" php="false">登录</variable>
+   <variable id="label.signUp" js="true" php="false">注册</variable>
+   <variable id="label.edit" js="true" php="false">编辑</variable>
+   <variable id="label.editAccount" js="true" php="false">编辑帐户</variable>
+   <variable id="label.logOff" js="true" php="false">注销</variable>
+   <variable id="label.approveAll" js="true" php="false">全部批准</variable>
+   <variable id="label.yes" js="true" php="false">是</variable>
+   <variable id="label.no" js="true" php="false">否</variable>
+   <variable id="label.addNewCmt" js="true" php="false">添加新评论</variable>
+   <variable id="label.plsWait" js="true" php="false">请稍候...</variable>
+   <variable id="label.plsWaitChProfile" js="true" php="false">正在加载用户配置文件...</variable>
+   <variable id="label.plsWaitRecover" js="true" php="false">正在恢复密码...</variable>
+   <variable id="label.plsWaitSignUp" js="true" php="false">注册你...</variable>
+   <variable id="label.plsWaitUpProfile" js="true" php="false">正在更新您的个人资料...</variable>
+   <variable id="label.plsWaitUpPaswd" js="true" php="false">正在更新您的密码... </variable>
+   <variable id="label.plsWaitCmts" js="true" php="false">正在加载评论... </variable>
+   <variable id="label.plsWaitAuth" js="true" php="false">正在验证用户... </variable>
+   <variable id="label.insertCmt" js="true" php="false">插入评论</variable>
+   <variable id="label.submit" js="true" php="false">提交</variable>
+   <variable id="label.userName" js="true" php="false">用户名</variable>
+   <variable id="label.pswd" js="true" php="false">密码</variable>
+   <variable id="label.lostPswd" js="true" php="false">丢失的密码</variable>
+   <variable id="label.signUp_userName" js="true" php="false">选择用户名</variable>
+   <variable id="label.signUp_email" js="true" php="false">您的电子邮件地址</variable>
+   <variable id="label.signUp_name" js="true" php="false">您的名字</variable>
+   <variable id="label.signUp_password" js="true" php="false">密码</variable>
+   <variable id="label.signUp_rPassword" js="true" php="false">重新键入密码</variable>
+   <variable id="label.recoverPwd" js="true" php="false">重置密码</variable>
+   <variable id="label.recoverEmail" js="true" php="false">您的电子邮件地址</variable>
+   <variable id="label.recoverUser" js="true" php="false">您的用户名</variable>
+   <variable id="label.bt_recover" js="true" php="true">重置密码</variable>
+   <variable id="label.question" js="true" php="false">确实要删除此邮件吗？</variable>
+   <variable id="label.adminPanel" js="true" php="false">管理面板</variable>
+   <variable id="label.changesNotApplied" js="true" php="false">未应用更改！</variable>
+   <variable id="label.search.user" js="true" php="false">搜索用户信息</variable>
+   <variable id="label.editUser" js="true" php="false">编辑用户</variable>
+   <variable id="label.updateUser" js="true" php="false">更新用户</variable>
+   <variable id="label.created" js="true" php="false">创建</variable>
+   <variable id="label.validated" js="true" php="false">已验证</variable>
+   <variable id="label.suspendend" js="true" php="false">暂停</variable>
+   <variable id="label.back" js="true" php="false">返回</variable>
+   <variable id="label.setVersion" js="true" php="false">设置版本</variable>
+   <variable id="label.export" js="true" php="false">导出评论</variable>
+   <variable id="label.confirm.bt" js="true" php="false">确认</variable>
+   <variable id="label.selection" js="true" php="false">所选产品/版本</variable>
+   <variable id="label.version" js="true" php="false">评论版本</variable>
+   <variable id="label.versionInfo" js="true" php="false">从版本开始可见评论： </variable>
+   <variable id="label.rememberme" js="true" php="false">在这台电脑上记住我</variable>
+   <variable id="label.viewAllPosts" js="true" php="false">查看所有帖子</variable>
+   <variable id="label.allPosts" js="true" php="false">所有帖子</variable>
+   <variable id="label.forView" js="true" php="false">选择要查看评论的产品和版本</variable>
+   <variable id="label.forExport" js="true" php="false">选择要导出评论的产品和版本</variable>
+   <variable id="label.product" js="true" php="false">产品</variable>
+   <variable id="label.confirmGo" js="true" php="false">OK</variable>
+   <variable id="delete" js="true" php="true">删除</variable>
+   <variable id="checkUser.1" js="true" php="false">匿名用户不验证请联系系统管理员！</variable>
+   <variable id="checkUser.2" js="true" php="false"/>
+   <variable id="checkUser.3" js="true" php="false"/>
+   <variable id="checkUser.4" js="true" php="false"/>
+   <variable id="checkUser.loginError" js="true" php="false">登录失败！</variable>
+   <variable id="info.noComments" js="true" php="true">没有评论！</variable>
+   <variable id="invalidCode" js="true" php="false">请插入指定的验证码</variable>
+   <variable id="pwd.invalid" js="true" php="false">无效密码</variable>
+   <variable id="pwd.invalidCharacters" js="false" php="true">密码包含无效字符！</variable>
+   <variable id="pwd.repeat" js="true" php="false">请输入相同的密码！</variable>
+   <variable id="pwd.empty" js="true" php="false">请插入至少5个字符的密码！</variable>
+   <variable id="checkEmail-signUp" js="true" php="false">请检查您的电子邮件并验证您的注册！</variable>
+   <variable id="checkEmail-recover" js="true" php="false">请检查您的电子邮件以获取恢复的密码！</variable>
+   <variable id="recoveryConfirmation" js="true" php="false">您的新密码已生成，请检查您的电子邮件 </variable>
+   <variable id="editPost" js="true" php="false">编辑评论</variable>
+   <variable id="newPost" js="true" php="false">插入注释</variable>
+   <variable id="admin" js="true" php="false">管理员</variable>
+   <variable id="moderator" js="true" php="false">版主</variable>
+   <variable id="user" js="true" php="false">用户</variable>
+   <variable id="created" js="true" php="false">创建</variable>
+   <variable id="validated" js="true" php="false">已验证</variable>
+   <variable id="suspended" js="true" php="true">暂停</variable>
+   <variable id="label.adminComments" js="true" php="false">评论</variable>
+   <variable id="label.adminUsers" js="true" php="false">用户</variable>
+   <variable id="logAdmin" js="true" php="false">请使用版主凭据进行身份验证！</variable>
+   <variable id="approveAllConfirmation" js="true" php="false">批准所有评论？</variable>
+   <variable id="signUp.confirmOk" js="true" php="true">确认成功！</variable>
+   <variable id="signUp.invalidPswd" js="true" php="true">提供的密码无效！</variable>
+   <variable id="signUp.confirmUsr" js="true" php="true">用户创建成功确认！</variable>
+   <variable id="signUp.invalidUsr" js="true" php="true">指定要确认的用户无效！</variable>
+   <variable id="signUp.userConfirmed" js="true" php="true">您的用户已被确认！</variable>
+   <variable id="signUp.err.0" js="true" php="false">用户创建成功！</variable>
+   <variable id="signUp.err.1" js="true" php="false">密码太短！</variable>
+   <variable id="signUp.err.2" js="true" php="false">密码包含无效字符！</variable>
+   <variable id="signUp.err.3" js="true" php="false">无效的电子邮件地址！</variable>
+   <variable id="signUp.err.4" js="true" php="false">用户名已被占用！</variable>
+   <variable id="signUp.err.5" js="true" php="false">电子邮件已经在数据库中！</variable>
+   <variable id="signUp.err.6" js="true" php="false">请插入有效的用户名！</variable>
+   <variable id="signUp.err.6.info" js="true" php="false">用户名只能包含不带空格的字母数字字符，并且必须至少有2个字符长</variable>
+   <variable id="signUp.err.9" js="true" php="false">注册数据无效！</variable>
+   <variable id="signUp.err.10" js="true" php="false">无法创建用户！</variable>
+   <variable id="msg.secureOldPass" js="false" php="true">请用当前密码确认配置文件更新</variable>
+   <variable id="productsListTitle" js="false" php="true">产品</variable>
+   <variable id="versionsListTitle" js="false" php="true">版本</variable>
+   <variable id="unavailableTextTillApproved" js="false" php="true">文章未经批准前不可用</variable>
+   <variable id="signUpEmailSubject" js="false" php="true">注册确认</variable>
+   <variable id="signUpLoginConfirmation" js="false" php="true">您的用户已被验证！</variable>
+   <variable id="RecoveredEmailSubject" js="false" php="true">密码已恢复</variable>
+   <variable id="RecoverConfirmationEmailSubject" js="false" php="true">密码恢复确认</variable>
+   <variable id="newCommentAdded" js="false" php="true">添加评论</variable>
+   <variable id="newCommentToModerate" js="false" php="true">适度评论</variable>
+   <variable id="newUnmoderatedCommentAdded" js="false" php="true">非适中评论</variable>
+   <variable id="newCommentApproved" js="false" php="true">发表评论</variable>
+   <variable id="email.duplicate" js="false" php="true">此电子邮件已注册我们的数据库！</variable>
+   <variable id="username.duplicate" js="false" php="true">此用户名已被使用！</variable>
+   <variable id="pwd.tooShort" js="true" php="true">密码长度必须至少为5个字符！</variable>
+   <variable id="input.invalid" js="false" php="true">您插入的日期无效：</variable>
+   <variable id="email.user.not.match" js="false" php="true">用户和电子邮件地址与数据库中的任何用户名都不匹配！</variable>
+   <variable id="user.name.label" js="false" php="true">您的用户名</variable>
+   <variable id="user.status.label" js="false" php="true">状态</variable>
+   <variable id="user.email.label" js="false" php="true">您的电子邮件</variable>
+   <variable id="user.notifyPage.label" js="false" php="true">页面通知</variable>
+   <variable id="user.notifyAll.label" js="false" php="true">网络帮助通知</variable>
+   <variable id="user.notifyReply.label" js="false" php="true">回复通知</variable>
+   <variable id="user.action.label" js="false" php="true">编辑</variable>
+   <variable id="admin.name.label" js="true" php="true">姓名</variable>
+   <variable id="admin.status.label" js="true" php="true">状态</variable>
+   <variable id="admin.email.label" js="true" php="true">电子邮件</variable>
+   <variable id="admin.userName.label" js="true" php="true">用户名</variable>
+   <variable id="admin.level.label" js="true" php="true">等级</variable>
+   <variable id="admin.company.label" js="true" php="true">公司</variable>
+   <variable id="admin.date.label" js="true" php="true">日期</variable>
+   <variable id="admin.notifyPage.label" js="true" php="true">页面通知</variable>
+   <variable id="admin.notifyAll.label" js="true" php="true">网页助手通知</variable>
+   <variable id="admin.notifyReply.label" js="true" php="true">回复通知</variable>
+   <variable id="admin.action.label" js="false" php="true">功能</variable>
+   <variable id="comment.moderate.info" js="true" php="true">贴子待批准。</variable>
+   <variable id="approved" js="false" php="true">批准</variable>
+   <variable id="new" js="false" php="true">新建</variable>
+   <variable id="rejected" js="false" php="true">拒绝</variable>
+   <variable id="approve" js="false" php="true">批准</variable>
+   <variable id="edit" js="false" php="true">编辑</variable>
+   <variable id="selected" js="false" php="true">选择</variable>
+   <variable id="suspend" js="false" php="true">暂停</variable>
+   <variable id="reply" js="false" php="true">回复</variable>
+   <variable id="noEmailFound" js="false" php="true">指定的电子邮件与任何用户都不匹配！</variable>
+   <variable id="noEmailSpecified" js="false" php="true">您没有指定任何电子邮件地址！</variable>
+   <variable id="passwordChanged" js="false" php="true">您的新密码已生成！你很快就会收到一封电子邮件！</variable>
+   <variable id="confirmationRequired" js="false" php="true">必须确认您的密码生成，请检查您的电子邮件！</variable>
+   <variable id="label.tc.commentId" js="false" php="true">Id</variable>
+   <variable id="label.tc.text" js="false" php="true">文本</variable>
+   <variable id="label.tc.userId" js="false" php="true">用户</variable>
+   <variable id="label.tc.referedComment" js="false" php="true">参考意见</variable>
+   <variable id="label.tc.date" js="false" php="true">日期</variable>
+   <variable id="label.tc.state" js="false" php="true">国家</variable>
+   <!--
+      Used to display the current page number in WebHelp search page. Page 5/16      
+   -->
+   <variable id="label.tc.page" js="false" php="true">页面</variable>
+   <variable id="label.tc.product" js="false" php="true">产品</variable>
+   <variable id="label.tc.version" js="false" php="true">版本</variable>
+   <variable id="label.tc.visible" js="false" php="true">可视</variable>
+   <variable id="err.notLoggedIn" js="false" php="true">用户必须经过身份验证才能执行此操作</variable>
+   <variable id="inst.deploymentSett" js="true" php="false">部署设置</variable>
+   <variable id="inst.overConfig" js="true" php="false">覆盖配置文件？</variable>
+   <variable id="inst.title" js="true" php="false">WebHelp安装程序</variable>
+   <variable id="inst.url" js="true" php="false">部署URL</variable>
+   <variable id="inst.email" js="true" php="false">WebHelp 电子邮件来自</variable>
+   <variable id="inst.errors" js="true" php="false">向系统管理员发送错误</variable>
+   <variable id="inst.adminEmail" js="true" php="false">系统管理员电子邮件</variable>
+   <variable id="inst.isModerated" js="true" php="false">评论系统是否审核？</variable>
+   <variable id="inst.sesLife" js="true" php="false">客户端会话生存期（秒）</variable>
+   <variable id="inst.isAnonymous" js="true" php="false">匿名帖子是否启用？</variable>
+   <variable id="inst.dbSettings" js="true" php="false">数据库设置</variable>
+   <variable id="inst.dbtype" js="true" php="false">数据库服务器类型</variable>
+   <variable id="inst.dbCreate" js="true" php="false">创建新数据库？</variable>
+   <variable id="inst.dbHost" js="true" php="false">数据库主机名</variable>
+   <variable id="inst.dbName" js="true" php="false">数据库名称</variable>
+   <variable id="inst.dbUser" js="true" php="false">数据库用户名</variable>
+   <variable id="inst.dbPass" js="true" php="false">数据库用户密码</variable>
+   <variable id="inst.initSett" js="true" php="false">初始设置</variable>
+   <variable id="inst.adminPass" js="true" php="false">管理员密码</variable>
+   <variable id="inst.adminPass2" js="true" php="false">确认管理员密码</variable>
+   <variable id="inst.start" js="true" php="false">开始安装</variable>
+   <variable id="inst.nextStep" js="true" php="false">下一步</variable>
+   <variable id="excluded.terms" js="true" php="false">排除条款：</variable>
+</variables>

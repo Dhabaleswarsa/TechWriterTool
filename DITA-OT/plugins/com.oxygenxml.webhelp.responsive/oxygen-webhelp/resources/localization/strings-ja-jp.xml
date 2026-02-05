@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Oxygen Webhelp plugin
+Copyright (c) 1998-2025 Syncro Soft SRL, Romania.  All rights reserved.
+Licensed under the terms stated in the license file EULA_Webhelp.txt 
+available in the base directory of this Oxygen Webhelp plugin.
+
+Translation strings for JP Japanese language.
+-->
+<variables><!-- Label for the Markdown Export menu. -->
+   <variable id="mdExportMenu" js="true" php="false">Markdown エクスポートメニュー</variable>
+   <variable id="copyMd" js="true" php="false">Markdown としてコピー</variable>
+   <variable id="copyMdDesc" js="true" php="false">トピックを LLM 用に Markdown としてコピー</variable>
+   <variable id="copyMdDescLocal" js="true" php="false">HTTPサーバーでのみ利用可能です</variable>
+   <variable id="viewMd" js="true" php="false">Markdown として表示</variable>
+   <variable id="viewMdDesc" js="true" php="false">トピックをプレーンテキストで表示</variable>
+   <!-- Label for the switch theme button. -->
+   <variable id="switchTheme" js="true" php="false">テーマを切り替える</variable>
+   <!-- Label for the page full width action available in the topic page. -->
+   <variable id="enterFullscreen" js="true" php="false">全幅に最大化</variable>
+   <variable id="exitFullscreen" js="true" php="false">通常の幅に戻す</variable>
+   <variable id="label.see" js="true" php="false">次を参照</variable>
+   <variable id="label.see_also" js="true" php="false">次も参照</variable>
+   <!--
+    Placeholder for the search input when feedback search summary is activated.
+ -->
+   <variable id="ask.me.anything" js="true" php="false">何でも聞いてください</variable>
+   <!-- Message displayed when user hovers over go to top button. -->
+   <variable id="go.to.top" js="true" php="false">トップへ戻る</variable>
+   <!-- Message displayed when user hovers over advanced search tooltip. -->
+   <variable id="advanced_search_tooltip_title" js="true" php="false">検索構文のヘルプ</variable>
+   <!-- Message displayed in the search page for the button that resets the filters. -->
+   <variable id="reset_search_filters" js="true" php="false">リセット</variable>
+   <!-- Message displayed in the search page as a header to a section where the user can select what filters to apply. -->
+   <variable id="search_filters" js="true" php="false">フィルター</variable>
+   <!--
+      Message displayed if the feedback search engine index is not ready.
+   -->
+   <variable id="indexing_in_progress" js="true" php="false">インデックス作成プロセスが進行中です。あとでもう一度試してみてください。</variable>
+   <!--
+      Message displayed if the feedback search engine index is not ready.
+   -->
+   <variable id="search_index_not_found" js="true" php="false">検索クエリを実行するためのコンテンツインデックスが見つかりません。</variable>
+   <!--
+      Label for the 'Index Terms' page title.
+   -->
+   <variable id="index.terms.page.title" js="true" php="false">索引語</variable>
+   <!--
+      Used as header for user type column.
+   -->
+   <variable id="admin.user.type" js="false" php="true">タイプ</variable>
+   <!--
+      Used as aria-label for toggle menu button.
+   -->
+   <variable id="toggle.menu" js="true" php="false">メニューを切り替える</variable>
+   <!--
+      Used as aria-label for insert comment textarea.
+   -->
+   <variable id="label.cleditorControls" js="true" php="false">コメントを挿入してください。Alt+Sを押してコメントを送信するか、Alt+` を押してコメントを破棄してください。</variable>
+   <!--
+      Close dialog accesibility marker.
+   -->
+   <variable id="label.closeDialog" js="true" php="false">ダイアログを閉じる</variable>
+   <!--
+      Used to compose aria label for an index term.
+      index term: text.
+   -->
+   <variable id="index.term" js="true" php="false">索引語</variable>
+   <!--
+      Aria label for index terms alphabet. It is used in index terms page.
+   -->
+   <variable id="index.terms.alphabet" js="true" php="false">索引語（アルファペット）</variable>
+   <!--
+      Aria label for index terms group letter. It is used in index terms page.
+   -->
+   <variable id="index.terms.for.letter" js="true" php="false">索引語（文字グループ）</variable>
+   <!--
+      Expand action for the foldable content sections
+   -->
+   <variable id="expand" js="true" php="false">展開</variable>
+   <!--
+      Collapse action for the foldable content sections
+   -->
+   <variable id="collapse" js="true" php="false">縮小</variable>
+   <!--
+      Search field accesibility marker.
+   -->
+   <variable id="search.query" js="true" php="false">検索クエリ</variable>
+   <!--
+      Label displayed in the search page as "Skip to main content" link.
+   -->
+   <variable id="jump.to.results" js="true" php="false">検索結果にジャンプ</variable>
+   <!--
+      Label displayed in the index terms page as "Skip to main content" link.
+   -->
+   <variable id="jump.to.index" js="true" php="false">インデックスリストにジャンプ</variable>
+   <!--
+      Label displayed in the main page and topic page as "Skip to main content" link.
+   -->
+   <variable id="jump.to.content" js="true" php="false">メインコンテンツにジャンプ</variable>
+   <!--
+      Label displayed in the search page as caption for the "Next" page button.
+   -->
+   <variable id="next.page" js="true" php="false">次へ</variable>
+   <!--
+      Label displayed in the search page as caption for the "Previous" page button.
+   -->
+   <variable id="prev.page" js="true" php="false">前へ</variable>
+   <!--
+      Label displayed in the topic page as caption for the topic TOC component.
+   -->
+   <variable id="on_this_page" js="true" php="false">このページ上</variable>
+   <!--
+      Label displayed in the publication TOC component when compact mode is on (some topics are hidden).
+   -->
+   <variable id="more" js="true" php="false">その他</variable>
+   <!--
+      Label for the 'Expand sections' action available in topic page.
+   -->
+   <variable id="expandSections" js="true" php="false">セクションを展開する</variable>
+   <!--
+      Label for the 'Collapse sections' action available in the topic page.
+   -->
+   <variable id="collapseSections" js="true" php="false">セクションを折りたたむ</variable>
+   <!--
+      Label for the 'Toggle search highlights' action available in the topic page to remove/add search highlights.
+   -->
+   <variable id="toggleHighlights" js="true" php="false">検索ハイライトを切り替える</variable>
+   <!--
+      Search page label displayed when similar page(s) results are available.      
+   -->
+   <variable id="Similar results" js="true" php="false">類似の結果</variable>
+   <!--
+      Label displayed by default in the page footer.      
+   -->
+   <variable id="Output generated by" js="true" php="false">以下により生成された出力</variable>
+   <!--
+      Used to display the current page number in WebHelp search page. Page 5/16      
+   -->
+   <variable id="Page" js="true" php="false">ページ</variable>
+   <!--
+      Used to display the search result.
+      It is a compound message with the form: 26 documents found for word1 word2.
+   -->
+   <variable id="Results for:" js="true" php="false">以下に対して検索されたドキュメント</variable>
+   <!-- 
+      Label displayed in the search page when the query string contains only stop words. 
+   -->
+   <variable id="no_results_only_stop_words1" js="true" php="false">検索クエリに検索エンジンにより除外される&lt;span&gt;停止ワード&lt;/span&gt;のみが含まれていたため、結果が見つかりませんでした。</variable>
+   <!-- 
+      Label displayed in the search page when the query string contains only stop words. 
+   -->
+   <variable id="no_results_only_stop_words2" js="true" php="false">停止ワードとは、非常に一般的な単語または検索を妨害する形容詞です。次のような含まれます：&apos;of &apos;、&apos;the&apos;、&apos;by&apos;など。</variable>
+   <!-- 
+      Label displayed in the search page when a search result has some missing words. 
+   -->
+   <variable id="missing" js="true" php="false">欠落しています</variable>
+   <!-- 
+      Label displayed in the topic page for the breadcrumb component. 
+   -->
+   <variable id="label.home" js="true" php="false">ホーム</variable>
+   <!--
+      Placeholder for the search input.
+   -->
+   <variable id="webhelp.search" js="true" php="false">検索</variable>
+   <!--
+      Label for the 'Index Terms' action.
+   -->
+   <variable id="webhelp.index" js="true" php="false">索引</variable>
+   <!--
+      Label for the 'Index Terms' action used by screen readers (aria-label attribute).
+   -->
+   <variable id="webhelp.index.aria.label" js="true" php="false">索引語ページに移動する</variable>
+   <variable id="label.shareFrom" js="true" php="false">下記のプロダクトについてユーザーアカウントを作成済みの場合は、そのアカウントを使ってログインできます。</variable>
+   <variable id="label.unconfirmedUsers" js="true" php="false">未確認ユーザー</variable>
+   <variable id="label.cleanUsers" js="true" php="false">保留中のユーザーを削除します</variable>
+   <variable id="label.tc.userName" js="true" php="true">ユーザー</variable>
+   <variable id="label.tc.name" js="true" php="true">名前</variable>
+   <variable id="label.tc.email" js="true" php="true">メール</variable>
+   <variable id="label.invertSel" js="true" php="false">選択を反転</variable>
+   <variable id="label.invalidPosts" js="true" php="false">コメント書き込み無効ページ</variable>
+   <variable id="label.cleanComments" js="true" php="false">孤立したコメントを削除します</variable>
+   <variable id="label.cleanCommentsTooltip" js="true" php="false">利用できないトピックに関連するコメントを削除します</variable>
+   <variable id="label.cleanUsersTooltip" js="true" php="false">7 日以上経過した未確認ユーザーを削除します</variable>
+   <variable id="label.viewAllPostsTooltip" js="true" php="false">表示する必要のあるコメントに対する適切な製品/バージョンを選択します</variable>
+   <variable id="label.exportTooltip" js="true" php="false">XML フォーマットにエクスポートする必要あるコメントに対する適切な製品/バージョンを選択します</variable>
+   <variable id="label.setVersionTooltip" js="true" php="false">コメントは、選択されたバージョンから始まる製品バージョンに対してのみ利用可能です。</variable>
+   <variable id="label.fbUnavailable" js="true" php="false">フィードバックシステムが稼働していません。WebHelpシステムの管理者に連絡してください。</variable>
+   <variable id="label.removeInst" js="true" php="false">WebHelpのインストール完了後、instllationフォルダを削除しなければいけません。</variable>
+   <variable id="label.plsRemoveInstall" js="true" php="false">installationフォルダを削除し、WebHelpのインストールを完了するように、システム管理者へ連絡してください。</variable>
+   <variable id="configInvalid" js="true" php="false">無効なコンフィグレーションファイル - インストールを実行してください</variable>
+   <variable id="webhelp.content" js="true" php="false">目次</variable>
+   <variable id="oldFrames" js="true" php="false">フレーム有り</variable>
+   <variable id="IndexFilterPlaceholder" js="true" php="false">索引を絞り込む</variable>
+   <variable id="SearchResults" js="true" php="false">検索結果</variable>
+   <variable id="Loading, please wait ..." js="true" php="false">ロード中。お待ちください...</variable>
+   <variable id="Search no results" js="true" php="false">入力した検索語が見つかりません</variable>
+   <variable id="There is no page containing all the search terms."
+             js="true"
+             php="false">検索語すべてを含むページはありません</variable>
+   <variable id="Partial results:" js="true" php="false">検索結果の一部:</variable>
+   <variable id="Search string can&apos;t be void" js="true" php="false">検索文字列が空です</variable>
+   <variable id="Search string must have at least two characters"
+             js="true"
+             php="false">検索文字列は、少なくとも 2 文字である必要があります</variable>
+   <variable id="Only first 10 words will be processed." js="true" php="false">最初の10文字だけが処理されます</variable>
+   <variable id="Your browser is not supported. Use of Mozilla Firefox is recommended."
+             js="true"
+             php="false">お使いのブラウザはサポートされていません。Mozilla Firefoxの使用を推奨します。</variable>
+   <variable id="linkToThis" js="true" php="false">このページへのリンク</variable>
+   <variable id="ExpandAll" js="true" php="false">すべてのトピックを展開</variable>
+   <variable id="printThisPage" js="true" php="false">このページを印刷</variable>
+   <variable id="CollapseAll" js="true" php="false">すべてのトピックを折りたたむ</variable>
+   <variable id="label.confirmOk" js="true" php="false">正常に完了しました !</variable>
+   <variable id="label.currentPwd" js="true" php="false">現在のパスワード</variable>
+   <variable id="label.Unsaved" js="true" php="false">このページを離れると、保存されていないデータが失われます。</variable>
+   <variable id="label.captcha" js="true" php="false">下記のキャプチャコードを入力してください:</variable>
+   <variable id="label.welcome" js="true" php="false">ようこそ</variable>
+   <variable id="label.close" js="true" php="false">閉じる</variable>
+   <variable id="label.cancel" js="true" php="false">キャンセル</variable>
+   <variable id="label.logAdmin" js="true" php="false">「検閲者」としてログイン</variable>
+   <variable id="label.guest" js="true" php="false">ゲスト</variable>
+   <variable id="label.admin" js="true" php="false">管理者</variable>
+   <variable id="label.administrator" js="true" php="false">管理者</variable>
+   <variable id="label.admin.title" js="true" php="false">管理用ページ</variable>
+   <variable id="label.moderator" js="true" php="false">検閲者</variable>
+   <variable id="label.user" js="true" php="false">ユーザー</variable>
+   <variable id="label.userProfile" js="true" php="true">ユーザープロファイル</variable>
+   <variable id="noDataAvailable" js="true" php="true">データなし</variable>
+   <variable id="label.yourName" js="true" php="false">あなたの名前</variable>
+   <variable id="label.yourEmail" js="true" php="false">あなたのE-Mailアドレス</variable>
+   <variable id="label.IwantEmail" js="true" php="false">メールでの通知を希望</variable>
+   <variable id="label.commentPage" js="true" php="false">自分がコメントしたページにコメントが付いたとき</variable>
+   <variable id="label.commentTopic" js="true" php="false">ヘルプシステムのいずれかのトピックにコメントが付いたとき</variable>
+   <variable id="label.commentMy" js="true" php="false">自分のコメントに返信コメントが付いたとき</variable>
+   <variable id="label.apply" js="true" php="false">変更適用</variable>
+   <variable id="label.newPwd" js="true" php="false">新しいパスワード</variable>
+   <variable id="label.reNewPwd" js="true" php="false">新しいパスワードを再入力</variable>
+   <variable id="label.chPwd" js="true" php="false">パスワードの変更</variable>
+   <variable id="label.comments" js="true" php="false">コメント</variable>
+   <variable id="label.login" js="true" php="false">ログイン</variable>
+   <variable id="label.signUp" js="true" php="false">サインアップ</variable>
+   <variable id="label.edit" js="true" php="false">編集</variable>
+   <variable id="label.editAccount" js="true" php="false">アカウント編集</variable>
+   <variable id="label.logOff" js="true" php="false">ログオフ</variable>
+   <variable id="label.approveAll" js="true" php="false">すべて承認する</variable>
+   <variable id="label.yes" js="true" php="false">はい</variable>
+   <variable id="label.no" js="true" php="false">いいえ</variable>
+   <variable id="label.addNewCmt" js="true" php="false">新規コメント追加</variable>
+   <variable id="label.plsWait" js="true" php="false">お待ちください...</variable>
+   <variable id="label.plsWaitChProfile" js="true" php="false">ユーザープロファイルのロード中...</variable>
+   <variable id="label.plsWaitRecover" js="true" php="false">パスワードのリカバリー中...</variable>
+   <variable id="label.plsWaitSignUp" js="true" php="false">サインアップ中...</variable>
+   <variable id="label.plsWaitUpProfile" js="true" php="false">プロファイルの更新中...</variable>
+   <variable id="label.plsWaitUpPaswd" js="true" php="false">パスワードの更新中... </variable>
+   <variable id="label.plsWaitCmts" js="true" php="false">コメントのロード中... </variable>
+   <variable id="label.plsWaitAuth" js="true" php="false">ユーザーの照合中... </variable>
+   <variable id="label.insertCmt" js="true" php="false">コメント挿入</variable>
+   <variable id="label.submit" js="true" php="false">送る</variable>
+   <variable id="label.userName" js="true" php="false">ユーザー名</variable>
+   <variable id="label.pswd" js="true" php="false">パスワード</variable>
+   <variable id="label.lostPswd" js="true" php="false">パスワード紛失</variable>
+   <variable id="label.signUp_userName" js="true" php="false">ユーザー名選択</variable>
+   <variable id="label.signUp_email" js="true" php="false">あなたのE-Mailアドレス</variable>
+   <variable id="label.signUp_name" js="true" php="false">あなたの名前</variable>
+   <variable id="label.signUp_password" js="true" php="false">パスワード</variable>
+   <variable id="label.signUp_rPassword" js="true" php="false">パスワード再入力</variable>
+   <variable id="label.recoverPwd" js="true" php="false">パスワードのリセット</variable>
+   <variable id="label.recoverEmail" js="true" php="false">あたなのE-Mailアドレス</variable>
+   <variable id="label.recoverUser" js="true" php="false">あなたのユーザー名</variable>
+   <variable id="label.bt_recover" js="true" php="true">パスワードのリセット</variable>
+   <variable id="label.question" js="true" php="false">本当にこのメッセージを削除しますか?</variable>
+   <variable id="label.adminPanel" js="true" php="false">管理パネル</variable>
+   <variable id="label.changesNotApplied" js="true" php="false">変更は適用されていません!</variable>
+   <variable id="label.search.user" js="true" php="false">ユーザー情報の検索</variable>
+   <variable id="label.editUser" js="true" php="false">ユーザー情報編集</variable>
+   <variable id="label.updateUser" js="true" php="false">ユーザー情報更新</variable>
+   <variable id="label.created" js="true" php="false">作成完了</variable>
+   <variable id="label.validated" js="true" php="false">照合完了</variable>
+   <variable id="label.suspendend" js="true" php="false">保留</variable>
+   <variable id="label.back" js="true" php="false">戻る</variable>
+   <variable id="label.setVersion" js="true" php="false">バージョン設定</variable>
+   <variable id="label.export" js="true" php="false">コメントのエクスポート</variable>
+   <variable id="label.confirm.bt" js="true" php="false">確認</variable>
+   <variable id="label.selection" js="true" php="false">プロダクト/バージョンを選択</variable>
+   <variable id="label.version" js="true" php="false">コメントバージョン</variable>
+   <variable id="label.versionInfo" js="true" php="false">コメント参照が可能な最初のバージョン: </variable>
+   <variable id="label.rememberme" js="true" php="false">コンピューターに記憶させる</variable>
+   <variable id="label.viewAllPosts" js="true" php="false">すべての書き込みを見る</variable>
+   <variable id="label.allPosts" js="true" php="false">すべての書き込み</variable>
+   <variable id="label.forView" js="true" php="false">コメントを参照するプロダクトとバージョンを選択</variable>
+   <variable id="label.forExport" js="true" php="false">コメントをエクスポートするプロダクトとバージョンを選択</variable>
+   <variable id="label.product" js="true" php="false">プロダクト</variable>
+   <variable id="label.confirmGo" js="true" php="false">OK</variable>
+   <variable id="delete" js="true" php="true">削除</variable>
+   <variable id="checkUser.1" js="true" php="false">Anonymousユーザーは許可されていません。システム管理者に連絡してください。</variable>
+   <variable id="checkUser.2" js="true" php="false"/>
+   <variable id="checkUser.3" js="true" php="false"/>
+   <variable id="checkUser.4" js="true" php="false"/>
+   <variable id="checkUser.loginError" js="true" php="false">ログイン失敗</variable>
+   <variable id="info.noComments" js="true" php="true">コメントがありません</variable>
+   <variable id="invalidCode" js="true" php="false">表示されたキャプチャコードを入力してください</variable>
+   <variable id="pwd.invalid" js="true" php="false">無効なパスワード</variable>
+   <variable id="pwd.invalidCharacters" js="false" php="true">パスワードに使用禁止文字が含まれています</variable>
+   <variable id="pwd.repeat" js="true" php="false">同じパスワードを入力してください</variable>
+   <variable id="pwd.empty" js="true" php="false">5文字以上のパスワードを入力してください</variable>
+   <variable id="checkEmail-signUp" js="true" php="false">送付されたE-Mailを確認し、ユーザー登録を完了してください</variable>
+   <variable id="checkEmail-recover" js="true" php="false">送付されたE-Mailを確認し、パスワードを再設定してください</variable>
+   <variable id="recoveryConfirmation" js="true" php="false">新しいパスワードが生成されました。送付されたE-Mailを確認してください。</variable>
+   <variable id="editPost" js="true" php="false">コメント編集</variable>
+   <variable id="newPost" js="true" php="false">コメント挿入</variable>
+   <variable id="admin" js="true" php="false">管理者</variable>
+   <variable id="moderator" js="true" php="false">検閲者</variable>
+   <variable id="user" js="true" php="false">ユーザー</variable>
+   <variable id="created" js="true" php="false">作成完了</variable>
+   <variable id="validated" js="true" php="false">照合完了</variable>
+   <variable id="suspended" js="true" php="true">保留</variable>
+   <variable id="label.adminComments" js="true" php="false">コメント</variable>
+   <variable id="label.adminUsers" js="true" php="false">ユーザー</variable>
+   <variable id="logAdmin" js="true" php="false">検閲者権限で認証してください</variable>
+   <variable id="approveAllConfirmation" js="true" php="false">すべてのコメントを承認しますか?</variable>
+   <variable id="signUp.confirmOk" js="true" php="true">確認が完了しました</variable>
+   <variable id="signUp.invalidPswd" js="true" php="true">不正なパスワードが入力されました</variable>
+   <variable id="signUp.confirmUsr" js="true" php="true">ユーザー作成の確認に成功しました</variable>
+   <variable id="signUp.invalidUsr" js="true" php="true">確認のために不正なユーザーが指定されまた</variable>
+   <variable id="signUp.userConfirmed" js="true" php="true">指定のユーザーは確認済みです</variable>
+   <variable id="signUp.err.0" js="true" php="false">ユーザー作成に成功しました</variable>
+   <variable id="signUp.err.1" js="true" php="false">パスワードが短過ぎます</variable>
+   <variable id="signUp.err.2" js="true" php="false">パスワードに使用禁止文字が含まれています</variable>
+   <variable id="signUp.err.3" js="true" php="false">不正なE-Mailアドレスです</variable>
+   <variable id="signUp.err.4" js="true" php="false">指定されたユーザー名は既に登録されています</variable>
+   <variable id="signUp.err.5" js="true" php="false">指定されたE-Mailアドレスは既に登録されています</variable>
+   <variable id="signUp.err.6" js="true" php="false">有効なユーザー名を入力してください</variable>
+   <variable id="signUp.err.6.info" js="true" php="false">スペースを含まない、2文字以上の英数字でユーザー名を指定してください</variable>
+   <variable id="signUp.err.9" js="true" php="false">サインアップデータが不正です</variable>
+   <variable id="signUp.err.10" js="true" php="false">ユーザーを作成できません</variable>
+   <variable id="msg.secureOldPass" js="false" php="true">現在のパスワードでプロファイルの更新を確認してください</variable>
+   <variable id="productsListTitle" js="false" php="true">プロダクト</variable>
+   <variable id="versionsListTitle" js="false" php="true">バージョン</variable>
+   <variable id="unavailableTextTillApproved" js="false" php="true">書き込みが承認されるまでテキストは表示されません</variable>
+   <variable id="signUpEmailSubject" js="false" php="true">サインアップの確認</variable>
+   <variable id="signUpLoginConfirmation" js="false" php="true">ユーザー登録が確認が完了しました</variable>
+   <variable id="RecoveredEmailSubject" js="false" php="true">パスワードが再設定されました</variable>
+   <variable id="RecoverConfirmationEmailSubject" js="false" php="true">パスワード再設定の確認</variable>
+   <variable id="newCommentAdded" js="false" php="true">追加されたコメント</variable>
+   <variable id="newCommentToModerate" js="false" php="true">検閲待ちコメント</variable>
+   <variable id="newUnmoderatedCommentAdded" js="false" php="true">検閲なしコメント</variable>
+   <variable id="newCommentApproved" js="false" php="true">新規コメント</variable>
+   <variable id="email.duplicate" js="false" php="true">指定されたE-Mailアドレスは既に登録されています</variable>
+   <variable id="username.duplicate" js="false" php="true">指定されたユーザー名は既に登録されています</variable>
+   <variable id="pwd.tooShort" js="true" php="true">5文字以上のパスワードを入力してください</variable>
+   <variable id="input.invalid" js="false" php="true">不適切な日付の入力:</variable>
+   <variable id="email.user.not.match" js="false" php="true">入力されたユーザー名とE-Mailアドレスは、データベースに登録されていません</variable>
+   <variable id="user.name.label" js="false" php="true">あなたの名前</variable>
+   <variable id="user.status.label" js="false" php="true">ステータス</variable>
+   <variable id="user.email.label" js="false" php="true">あなたのE-Mailアドレス</variable>
+   <variable id="user.notifyPage.label" js="false" php="true">ページ通知</variable>
+   <variable id="user.notifyAll.label" js="false" php="true">WebHelp通知</variable>
+   <variable id="user.notifyReply.label" js="false" php="true">返信通知</variable>
+   <variable id="user.action.label" js="false" php="true">編集</variable>
+   <variable id="admin.name.label" js="true" php="true">名前</variable>
+   <variable id="admin.status.label" js="true" php="true">ステータス</variable>
+   <variable id="admin.email.label" js="true" php="true">メール</variable>
+   <variable id="admin.userName.label" js="true" php="true">ユーザー名</variable>
+   <variable id="admin.level.label" js="true" php="true">レベル</variable>
+   <variable id="admin.company.label" js="true" php="true">企業名</variable>
+   <variable id="admin.date.label" js="true" php="true">日付</variable>
+   <variable id="admin.notifyPage.label" js="true" php="true">ページ通知</variable>
+   <variable id="admin.notifyAll.label" js="true" php="true">WebHelp通知</variable>
+   <variable id="admin.notifyReply.label" js="true" php="true">返信通知</variable>
+   <variable id="admin.action.label" js="false" php="true">アクション</variable>
+   <variable id="comment.moderate.info" js="true" php="true">承認待ち書き込み</variable>
+   <variable id="approved" js="false" php="true">承認済み</variable>
+   <variable id="new" js="false" php="true">新規</variable>
+   <variable id="rejected" js="false" php="true">却下</variable>
+   <variable id="approve" js="false" php="true">承認</variable>
+   <variable id="edit" js="false" php="true">編集</variable>
+   <variable id="selected" js="false" php="true">選択済み</variable>
+   <variable id="suspend" js="false" php="true">保留</variable>
+   <variable id="reply" js="false" php="true">返信</variable>
+   <variable id="noEmailFound" js="false" php="true">入力されたE-Mailアドレスを持つユーザーは登録されていません</variable>
+   <variable id="noEmailSpecified" js="false" php="true">E-Mailアドレスが指定されていません</variable>
+   <variable id="passwordChanged" js="false" php="true">新しいパスワードが生成されました。すぐに新しいパスワードがE-Mailで通知されます。</variable>
+   <variable id="confirmationRequired" js="false" php="true">生成されたパスワードは、あなたが確認した後に有効になります。あなた宛てに送付されたE-Mailを確認してください。</variable>
+   <variable id="label.tc.commentId" js="false" php="true">Id</variable>
+   <variable id="label.tc.text" js="false" php="true">テキスト</variable>
+   <variable id="label.tc.userId" js="false" php="true">ユーザー</variable>
+   <variable id="label.tc.referedComment" js="false" php="true">参照コメント</variable>
+   <variable id="label.tc.date" js="false" php="true">日付</variable>
+   <variable id="label.tc.state" js="false" php="true">ステータス</variable>
+   <!--
+      Used to display the current page number in WebHelp search page. Page 5/16      
+   -->
+   <variable id="label.tc.page" js="false" php="true">ページ</variable>
+   <variable id="label.tc.product" js="false" php="true">プロダクト</variable>
+   <variable id="label.tc.version" js="false" php="true">バージョン</variable>
+   <variable id="label.tc.visible" js="false" php="true">参照可能</variable>
+   <variable id="err.notLoggedIn" js="false" php="true">この操作を実行するには、ユーザー認証が必要です</variable>
+   <variable id="inst.deploymentSett" js="true" php="false">配置／運用開始のための設定</variable>
+   <variable id="inst.overConfig" js="true" php="false">コンフィグレーションファイルを上書きしますか ?</variable>
+   <variable id="inst.title" js="true" php="false">WebHelpインストーラー</variable>
+   <variable id="inst.url" js="true" php="false">WebHelpを配置したURL</variable>
+   <variable id="inst.email" js="true" php="false">WebHelpシステム通知メールの送信元 E-mailアドレス</variable>
+   <variable id="inst.errors" js="true" php="false">システム管理者へエラーを通知する</variable>
+   <variable id="inst.adminEmail" js="true" php="false">システム管理者 E-mail</variable>
+   <variable id="inst.isModerated" js="true" php="false">コメントシステムを検閲しますか?</variable>
+   <variable id="inst.sesLife" js="true" php="false">クライアントのセッション有効時間(秒)</variable>
+   <variable id="inst.isAnonymous" js="true" php="false">Anonymousユーザーを有効にしますか?</variable>
+   <variable id="inst.dbSettings" js="true" php="false">データベース設定</variable>
+   <variable id="inst.dbtype" js="true" php="false">データベース サーバー タイプ</variable>
+   <variable id="inst.dbCreate" js="true" php="false">新たにデータベースを作成しますか?</variable>
+   <variable id="inst.dbHost" js="true" php="false">データベース ホスト名</variable>
+   <variable id="inst.dbName" js="true" php="false">データベース名</variable>
+   <variable id="inst.dbUser" js="true" php="false">データベース ユーザー</variable>
+   <variable id="inst.dbPass" js="true" php="false">データベース ユーザー パスワード</variable>
+   <variable id="inst.initSett" js="true" php="false">初期設定</variable>
+   <variable id="inst.adminPass" js="true" php="false">管理者パスワード</variable>
+   <variable id="inst.adminPass2" js="true" php="false">管理者パスワード確認</variable>
+   <variable id="inst.start" js="true" php="false">インストール開始</variable>
+   <variable id="inst.nextStep" js="true" php="false">次のステップ</variable>
+   <variable id="excluded.terms" js="true" php="false">除外される条件：</variable>
+</variables>

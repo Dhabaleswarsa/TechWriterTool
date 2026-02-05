@@ -1,0 +1,134 @@
+/*
+ * ==============================================
+ * Skin for oXygen generated PDF Presentation.
+ * ==============================================
+ */
+
+/*
+ * ------------------------------------------------------------------
+ * 
+ * Fonts.
+ * 
+ */
+@font-face {
+  font-family: Roboto;
+  src: url(resources/fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  font-style: italic;
+  src: url(resources/fonts/Roboto-Italic.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  font-weight: 700;
+  src: url(resources/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 700;
+  src: url(resources/fonts/Roboto-Bold.ttf);
+}
+
+/*
+ * ------------------------------------------------------------------
+ * 
+ * Content.
+ * 
+ */
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 16pt;
+}
+
+*[class ~= "front-page/front-page-title"] {
+  margin-top: 2.5in;
+}
+*[class ~= "front-page/front-page-title"] > *[class ~= "topic/title"] {
+  font-size: 32pt;
+}
+*[class ~= "map/map"][title],
+*[class ~= "front-page/front-page-title"] > *[class ~= "topic/title"]:not([class ~= "bookmap/booktitle"]),
+*[class ~= "front-page/front-page-title"] > *[class ~= "bookmap/booktitle"] > *[class ~= "bookmap/mainbooktitle"] {
+  bookmark-label: none;
+}
+
+*[class ~= "map/map"] > *[class ~= "toc/toc"],
+*[class ~= "placeholder/tablelist"],
+*[class ~= "placeholder/figurelist"] {
+  display: none;
+}
+
+*[class ~= "toc/title"],
+*[class ~= "placeholder/tablelist"] > *[class ~= "topic/title"],
+*[class ~= "placeholder/figurelist"] > *[class ~= "topic/title"],
+*[class ~= "topic/topic"] > *[class ~= "topic/title"],
+*[class ~= "topic/topic"]:has(*[class ~= "topic/titlealts"]) > *[class ~= "topic/title"],
+*[class ~= "topic/topic"] *[class ~= "topic/topic"][topicrefclass ~= "map/topicref"] > *[class ~= "topic/title"],
+*[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"][topicrefclass ~= "map/topicref"] > *[class ~= "topic/title"],
+*[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"][topicrefclass ~= "map/topicref"] > *[class ~= "topic/title"],
+*[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"][topicrefclass ~= "map/topicref"] > *[class ~= "topic/title"],
+*[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"][topicrefclass ~= "map/topicref"] > *[class ~= "topic/title"],
+*[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"][topicrefclass ~= "map/topicref"] > *[class ~= "topic/title"],
+*[class ~= "topic/topic"] *[class ~= "topic/section"] > *[class ~= "topic/title"],
+*[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/section"] > *[class ~= "topic/title"],
+*[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/section"] > *[class ~= "topic/title"],
+*[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/section"] > *[class ~= "topic/title"],
+*[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/section"] > *[class ~= "topic/title"],
+*[class ~= "topic/topic"] *[class ~= "topic/topic"] *[class ~= "topic/section"] > *[class ~= "topic/title"],
+*[class ~= "index/groups"] {
+  display: none;
+  bookmark-label: none;
+}
+*[class ~= "topic/example"] > *[class ~= "topic/title"] {
+  bookmark-label: none;
+}
+
+*[class ~= "topic/topic"] {
+  break-before: always;
+  break-after: always;
+}
+
+*[class ~= "topic/topic"][is-chapter]:not([is-part]) > *[class ~= "topic/title"] {
+  string-set: chaptertitle " | " counter(chapter) " - " content(), 
+chaptertitle-no-prefix " " counter(chapter) " - " content(), 
+chaptertitle-only " " content(), 
+sectiontitle ""; /* Avoid propagating a past section title on a new chapter */
+}
+
+*[class ~= "map/map"] *[class ~= "topic/topic"][is-chapter]:not([is-part]) *[class ~= "topic/topic"] > *[class ~= "topic/title"],
+*[class ~= "map/map"][numbering ^= 'deep'] *[class ~= "topic/topic"][is-chapter]:not([is-part]) *[class ~= "topic/topic"] > *[class ~= "topic/title"] {
+  string-set: sectiontitle " - " content();
+}
+
+*[class ~= "topic/fig"],
+*[class ~= "topic/image"][placement = "break"] {
+  display: block;
+  break-before: always;
+  break-after: always;
+  text-align: center;
+  padding-top: 0.5em;
+  margin: 0;
+}
+*[class ~= 'topic/image'][width] {
+  width: auto;
+}
+
+*[class ~= "topic/table"] {
+  break-before: always;
+  break-after: always;
+  margin: 0 auto;
+}
+*[class ~= "topic/table"] > *[class ~= "topic/title"] {
+  text-align: center;
+}
+
+*[class ~= "map/map"] *[class ~= "topic/xref"][href]:after,
+*[class ~= "map/map"] *[class ~= "topic/link"][href]:after {
+  content: " (slide " target-counter(attr(href), page) ")";
+}
+
+*[class ~= "wh_related_links"] {
+  display: none;
+}

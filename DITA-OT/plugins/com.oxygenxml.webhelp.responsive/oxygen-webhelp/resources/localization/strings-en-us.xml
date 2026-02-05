@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Oxygen Webhelp plugin
+Copyright (c) 1998-2025 Syncro Soft SRL, Romania.  All rights reserved.
+Licensed under the terms stated in the license file EULA_Webhelp.txt 
+available in the base directory of this Oxygen Webhelp plugin.
+
+Translation strings for US English language.
+-->
+<variables><!-- Label for the Markdown Export menu. -->
+   <variable id="mdExportMenu" js="true" php="false">Markdown Export menu</variable>
+   <variable id="copyMd" js="true" php="false">Copy as Markdown</variable>
+   <variable id="copyMdDesc" js="true" php="false">Copy topic as Markdown for LLMs</variable>
+   <variable id="copyMdDescLocal" js="true" php="false">Only available on HTTP server</variable>
+   <variable id="viewMd" js="true" php="false">View as Markdown</variable>
+   <variable id="viewMdDesc" js="true" php="false">View topic as plain text</variable>
+   <!-- Label for the switch theme button. -->
+   <variable id="switchTheme" js="true" php="false">Switch theme</variable>
+   <!-- Label for the page full width action available in the topic page. -->
+   <variable id="enterFullscreen" js="true" php="false">Maximize to full width</variable>
+   <variable id="exitFullscreen" js="true" php="false">Restore to normal width</variable>
+   <variable id="label.see" js="true" php="false">See</variable>
+   <variable id="label.see_also" js="true" php="false">See also</variable>
+   <!--
+    Placeholder for the search input when feedback search summary is activated.
+ -->
+   <variable id="ask.me.anything" js="true" php="false">Ask me anything</variable>
+   <!-- Message displayed when user hovers over go to top button. -->
+   <variable id="go.to.top" js="true" php="false">Go to top</variable>
+   <!-- Message displayed when user hovers over advanced search tooltip. -->
+   <variable id="advanced_search_tooltip_title" js="true" php="false">Search Syntax Help</variable>
+   <!-- Message displayed in the search page for the button that resets the filters. -->
+   <variable id="reset_search_filters" js="true" php="false">Reset</variable>
+   <!-- Message displayed in the search page as a header to a section where the user can select what filters to apply. -->
+   <variable id="search_filters" js="true" php="false">Filters</variable>
+   <!--
+      Message displayed if the feedback search engine index is not ready.
+   -->
+   <variable id="indexing_in_progress" js="true" php="false">The indexing process is in progress. Try again later.</variable>
+   <!--
+      Message displayed if the feedback search engine index is not ready.
+   -->
+   <variable id="search_index_not_found" js="true" php="false">No content index found to execute the search query.</variable>
+   <!--
+      Label for the 'Index Terms' page title.
+   -->
+   <variable id="index.terms.page.title" js="true" php="false">Index Terms</variable>
+   <!--
+      Used as header for user type column.
+   -->
+   <variable id="admin.user.type" js="false" php="true">Type</variable>
+   <!--
+      Used as aria-label for toggle menu button.
+   -->
+   <variable id="toggle.menu" js="true" php="false">Toggle menu</variable>
+   <!--
+      Used as aria-label for insert comment textarea.
+   -->
+   <variable id="label.cleditorControls" js="true" php="false">Insert your comment. Press Alt+S to submit your comment or Alt+` to discard
+   it.</variable>
+   <!--
+      Close dialog accesibility marker.
+   -->
+   <variable id="label.closeDialog" js="true" php="false">Close dialog</variable>
+   <!--
+      Used to compose aria label for an index term.
+      index term: text.
+   -->
+   <variable id="index.term" js="true" php="false">index term</variable>
+   <!--
+      Aria label for index terms alphabet. It is used in index terms page.
+   -->
+   <variable id="index.terms.alphabet" js="true" php="false">Index terms alphabet</variable>
+   <!--
+      Aria label for index terms group letter. It is used in index terms page.
+   -->
+   <variable id="index.terms.for.letter" js="true" php="false">Index terms group for letter</variable>
+   <!--
+      Expand action for the foldable content sections
+   -->
+   <variable id="expand" js="true" php="false">Expand</variable>
+   <!--
+      Collapse action for the foldable content sections
+   -->
+   <variable id="collapse" js="true" php="false">Collapse</variable>
+   <!--
+      Search field accesibility marker.
+   -->
+   <variable id="search.query" js="true" php="false">Search query</variable>
+   <!--
+      Label displayed in the search page as "Skip to main content" link.
+   -->
+   <variable id="jump.to.results" js="true" php="false">Jump to search results</variable>
+   <!--
+      Label displayed in the index terms page as "Skip to main content" link.
+   -->
+   <variable id="jump.to.index" js="true" php="false">Jump to index list</variable>
+   <!--
+      Label displayed in the main page and topic page as "Skip to main content" link.
+   -->
+   <variable id="jump.to.content" js="true" php="false">Jump to main content</variable>
+   <!--
+      Label displayed in the search page as caption for the "Next" page button.
+   -->
+   <variable id="next.page" js="true" php="false">Next</variable>
+   <!--
+      Label displayed in the search page as caption for the "Previous" page button.
+   -->
+   <variable id="prev.page" js="true" php="false">Previous</variable>
+   <!--
+      Label displayed in the topic page as caption for the topic TOC component.
+   -->
+   <variable id="on_this_page" js="true" php="false">On this page</variable>
+   <!--
+      Label displayed in the publication TOC component when compact mode is on (some topics are hidden).
+   -->
+   <variable id="more" js="true" php="false">more</variable>
+   <!--
+      Label for the 'Expand sections' action available in topic page.
+   -->
+   <variable id="expandSections" js="true" php="false">Expand sections</variable>
+   <!--
+      Label for the 'Collapse sections' action available in the topic page.
+   -->
+   <variable id="collapseSections" js="true" php="false">Collapse sections</variable>
+   <!--
+      Label for the 'Toggle search highlights' action available in the topic page to remove/add search highlights.
+   -->
+   <variable id="toggleHighlights" js="true" php="false">Toggle search highlights</variable>
+   <!--
+      Search page label displayed when similar page(s) results are available.      
+   -->
+   <variable id="Similar results" js="true" php="false">Similar results</variable>
+   <!--
+      Label displayed by default in the page footer.      
+   -->
+   <variable id="Output generated by" js="true" php="false">Generated by</variable>
+   <!--
+      Used to display the current page number in WebHelp search page. Page 5/16      
+   -->
+   <variable id="Page" js="true" php="false">Page</variable>
+   <!--
+      Used to display the search result.
+      It is a compound message with the form: 26 documents found for word1 word2.
+   -->
+   <variable id="Results for:" js="true" php="false">document(s) found for</variable>
+   <!-- 
+      Label displayed in the search page when the query string contains only stop words. 
+   -->
+   <variable id="no_results_only_stop_words1" js="true" php="false">No results were found because the search query only contains &lt;span&gt;stop
+   words&lt;/span&gt; that are excluded by the search engine.</variable>
+   <!-- 
+      Label displayed in the search page when the query string contains only stop words. 
+   -->
+   <variable id="no_results_only_stop_words2" js="true" php="false">Stop words are very common words or adjectives that hinder search efforts. Words
+   such as: &apos;of &apos; , &apos;the&apos;, &apos;by&apos;, etc.</variable>
+   <!-- 
+      Label displayed in the search page when a search result has some missing words. 
+   -->
+   <variable id="missing" js="true" php="false">Missing</variable>
+   <!-- 
+      Label displayed in the topic page for the breadcrumb component. 
+   -->
+   <variable id="label.home" js="true" php="false">Home</variable>
+   <!--
+      Placeholder for the search input.
+   -->
+   <variable id="webhelp.search" js="true" php="false">Search</variable>
+   <!--
+      Label for the 'Index Terms' action.
+   -->
+   <variable id="webhelp.index" js="true" php="false">Index</variable>
+   <!--
+      Label for the 'Index Terms' action used by screen readers (aria-label attribute).
+   -->
+   <variable id="webhelp.index.aria.label" js="true" php="false">Go to index terms page</variable>
+   <variable id="label.shareFrom" js="true" php="false">If you already have an user account for any of the following products, you can
+   use that account to login.</variable>
+   <variable id="label.unconfirmedUsers" js="true" php="false">Unconfirmed Users</variable>
+   <variable id="label.cleanUsers" js="true" php="false">Delete Pending Users</variable>
+   <variable id="label.tc.userName" js="true" php="true">User</variable>
+   <variable id="label.tc.name" js="true" php="true">Name</variable>
+   <variable id="label.tc.email" js="true" php="true">E-mail</variable>
+   <variable id="label.invertSel" js="true" php="false">Invert Selection</variable>
+   <variable id="label.invalidPosts" js="true" php="false">Invalid pages for posts</variable>
+   <variable id="label.cleanComments" js="true" php="false">Delete Orphaned Comments</variable>
+   <variable id="label.cleanCommentsTooltip" js="true" php="false">Delete comments associated with topics that are no longer available</variable>
+   <variable id="label.cleanUsersTooltip" js="true" php="false">Delete unconfirmed users older than 7 days</variable>
+   <variable id="label.viewAllPostsTooltip" js="true" php="false">Select the appropriate product / version for which you need comments to be
+   displayed</variable>
+   <variable id="label.exportTooltip" js="true" php="false">Select the appropriate product / version for which you need comments to be
+   exported to XML format</variable>
+   <variable id="label.setVersionTooltip" js="true" php="false">Comments will be available only for the product versions starting from the
+   selected one.</variable>
+   <variable id="label.fbUnavailable" js="true" php="false">The feedback system is disabled! Please contact the WebHelp system
+   administrator.</variable>
+   <variable id="label.removeInst" js="true" php="false">The folder containing the installation scripts must be removed after the
+   installation is complete!</variable>
+   <variable id="label.plsRemoveInstall" js="true" php="false">Please contact system administrator to finalize the webhelp installation by
+   removing the installation folder!</variable>
+   <variable id="configInvalid" js="true" php="false">Invalid config File - run install first!</variable>
+   <variable id="webhelp.content" js="true" php="false">Content</variable>
+   <variable id="oldFrames" js="true" php="false">With Frames</variable>
+   <variable id="IndexFilterPlaceholder" js="true" php="false">Filter Index Entries</variable>
+   <variable id="SearchResults" js="true" php="false">Search Results</variable>
+   <variable id="Loading, please wait ..." js="true" php="false">Loading, please wait ...</variable>
+   <variable id="Search no results" js="true" php="false">Your search returned no results for</variable>
+   <variable id="There is no page containing all the search terms."
+             js="true"
+             php="false">There is no page containing all the search terms.</variable>
+   <variable id="Partial results:" js="true" php="false">Partial results:</variable>
+   <variable id="Search string can&apos;t be void" js="true" php="false">Search string can&apos;t be void</variable>
+   <variable id="Search string must have at least two characters"
+             js="true"
+             php="false">Search string must have at least two characters</variable>
+   <variable id="Only first 10 words will be processed." js="true" php="false">Only first 10 words will be processed.</variable>
+   <variable id="Your browser is not supported. Use of Mozilla Firefox is recommended."
+             js="true"
+             php="false">Your browser is not supported. Use of Mozilla Firefox is recommended.</variable>
+   <variable id="linkToThis" js="true" php="false">Link to this page</variable>
+   <variable id="ExpandAll" js="true" php="false">Expand All Topics</variable>
+   <variable id="printThisPage" js="true" php="false">Print this page</variable>
+   <variable id="CollapseAll" js="true" php="false">Collapse All Topics</variable>
+   <variable id="label.confirmOk" js="true" php="false">Completed successful!</variable>
+   <variable id="label.currentPwd" js="true" php="false">Current Password</variable>
+   <variable id="label.Unsaved" js="true" php="false">Any unsaved data will be lost if you leave this page.</variable>
+   <variable id="label.captcha" js="true" php="false">Enter the captcha code seen below:</variable>
+   <variable id="label.welcome" js="true" php="false">Welcome</variable>
+   <variable id="label.close" js="true" php="false">Close</variable>
+   <variable id="label.cancel" js="true" php="false">Cancel</variable>
+   <variable id="label.logAdmin" js="true" php="false">Log in as &apos;Moderator&apos; user</variable>
+   <variable id="label.guest" js="true" php="false">Guest</variable>
+   <variable id="label.admin" js="true" php="false">Admin</variable>
+   <variable id="label.administrator" js="true" php="false">Administrator</variable>
+   <variable id="label.admin.title" js="true" php="false">Administrative Page</variable>
+   <variable id="label.moderator" js="true" php="false">Moderator</variable>
+   <variable id="label.user" js="true" php="false">User</variable>
+   <variable id="label.userProfile" js="true" php="true">User Profile</variable>
+   <variable id="noDataAvailable" js="true" php="true">No data available</variable>
+   <variable id="label.yourName" js="true" php="false">Your Name</variable>
+   <variable id="label.yourEmail" js="true" php="false">Your email address</variable>
+   <variable id="label.IwantEmail" js="true" php="false">I want to receive an email when</variable>
+   <variable id="label.commentPage" js="true" php="false">a comment is left on a page that I commented on</variable>
+   <variable id="label.commentTopic" js="true" php="false">a comment is left on any topic in the Help system</variable>
+   <variable id="label.commentMy" js="true" php="false">a reply is left to one of my comments</variable>
+   <variable id="label.apply" js="true" php="false">Apply Changes</variable>
+   <variable id="label.newPwd" js="true" php="false">New Password</variable>
+   <variable id="label.reNewPwd" js="true" php="false">Retype New Password</variable>
+   <variable id="label.chPwd" js="true" php="false">Change Password</variable>
+   <variable id="label.comments" js="true" php="false">Comments</variable>
+   <variable id="label.login" js="true" php="false">Log in</variable>
+   <variable id="label.signUp" js="true" php="false">Sign Up</variable>
+   <variable id="label.edit" js="true" php="false">Edit</variable>
+   <variable id="label.editAccount" js="true" php="false">Edit Account</variable>
+   <variable id="label.logOff" js="true" php="false">Log Off</variable>
+   <variable id="label.approveAll" js="true" php="false">Approve All</variable>
+   <variable id="label.yes" js="true" php="false">Yes</variable>
+   <variable id="label.no" js="true" php="false">No</variable>
+   <variable id="label.addNewCmt" js="true" php="false">Add New Comment</variable>
+   <variable id="label.plsWait" js="true" php="false">Please Wait ...</variable>
+   <variable id="label.plsWaitChProfile" js="true" php="false">Loading User Profile ...</variable>
+   <variable id="label.plsWaitRecover" js="true" php="false">Recovering Password ...</variable>
+   <variable id="label.plsWaitSignUp" js="true" php="false">Signing you up ...</variable>
+   <variable id="label.plsWaitUpProfile" js="true" php="false">Updating Your Profile ...</variable>
+   <variable id="label.plsWaitUpPaswd" js="true" php="false">Updating your Password ... </variable>
+   <variable id="label.plsWaitCmts" js="true" php="false">Loading Comments ... </variable>
+   <variable id="label.plsWaitAuth" js="true" php="false">Verifying User ... </variable>
+   <variable id="label.insertCmt" js="true" php="false">Insert Comment</variable>
+   <variable id="label.submit" js="true" php="false">Submit</variable>
+   <variable id="label.userName" js="true" php="false">User name</variable>
+   <variable id="label.pswd" js="true" php="false">Password</variable>
+   <variable id="label.lostPswd" js="true" php="false">Lost Password</variable>
+   <variable id="label.signUp_userName" js="true" php="false">Choose a user name</variable>
+   <variable id="label.signUp_email" js="true" php="false">Your Email Address</variable>
+   <variable id="label.signUp_name" js="true" php="false">Your Name</variable>
+   <variable id="label.signUp_password" js="true" php="false">Password</variable>
+   <variable id="label.signUp_rPassword" js="true" php="false">Retype Password</variable>
+   <variable id="label.recoverPwd" js="true" php="false">Reset Password</variable>
+   <variable id="label.recoverEmail" js="true" php="false">Your Email Address</variable>
+   <variable id="label.recoverUser" js="true" php="false">Your User Name</variable>
+   <variable id="label.bt_recover" js="true" php="true">Reset Password</variable>
+   <variable id="label.question" js="true" php="false">Are you sure you want to delete this message?</variable>
+   <variable id="label.adminPanel" js="true" php="false">Admin Panel</variable>
+   <variable id="label.changesNotApplied" js="true" php="false">Changes were not applied!</variable>
+   <variable id="label.search.user" js="true" php="false">Search User Information</variable>
+   <variable id="label.editUser" js="true" php="false">Edit User</variable>
+   <variable id="label.updateUser" js="true" php="false">Update User</variable>
+   <variable id="label.created" js="true" php="false">Created</variable>
+   <variable id="label.validated" js="true" php="false">Validated</variable>
+   <variable id="label.suspendend" js="true" php="false">Suspended</variable>
+   <variable id="label.back" js="true" php="false">Back</variable>
+   <variable id="label.setVersion" js="true" php="false">Set Version</variable>
+   <variable id="label.export" js="true" php="false">Export Comments</variable>
+   <variable id="label.confirm.bt" js="true" php="false">Confirm</variable>
+   <variable id="label.selection" js="true" php="false">Selected Product / Version</variable>
+   <variable id="label.version" js="true" php="false">Comments Version</variable>
+   <variable id="label.versionInfo" js="true" php="false">The comments are visible starting from version: </variable>
+   <variable id="label.rememberme" js="true" php="false">Remember me on this computer</variable>
+   <variable id="label.viewAllPosts" js="true" php="false">View All Posts</variable>
+   <variable id="label.allPosts" js="true" php="false">All Posts</variable>
+   <variable id="label.forView" js="true" php="false">Select Product and Version to View Comments</variable>
+   <variable id="label.forExport" js="true" php="false">Select Product and Version to Export Comments</variable>
+   <variable id="label.product" js="true" php="false">Product</variable>
+   <variable id="label.confirmGo" js="true" php="false">OK</variable>
+   <variable id="delete" js="true" php="true">Delete</variable>
+   <variable id="checkUser.1" js="true" php="false">Anonymous user does not validate please contact system administrator!</variable>
+   <variable id="checkUser.2" js="true" php="false"/>
+   <variable id="checkUser.3" js="true" php="false"/>
+   <variable id="checkUser.4" js="true" php="false"/>
+   <variable id="checkUser.loginError" js="true" php="false">Log in failed!</variable>
+   <variable id="info.noComments" js="true" php="true">There are no comments!</variable>
+   <variable id="invalidCode" js="true" php="false">Please insert the specified captcha code</variable>
+   <variable id="pwd.invalid" js="true" php="false">Invalid password</variable>
+   <variable id="pwd.invalidCharacters" js="false" php="true">Password contains invalid characters!</variable>
+   <variable id="pwd.repeat" js="true" php="false">Please insert the same password!</variable>
+   <variable id="pwd.empty" js="true" php="false">Please insert a minimum 5 characters password!</variable>
+   <variable id="checkEmail-signUp" js="true" php="false">Please check your e-mail and validate your registration!</variable>
+   <variable id="checkEmail-recover" js="true" php="false">Please check your e-mail for recovered password!</variable>
+   <variable id="recoveryConfirmation" js="true" php="false">Your new password has been generated, please check your e-mail </variable>
+   <variable id="editPost" js="true" php="false">Edit Comment</variable>
+   <variable id="newPost" js="true" php="false">Insert Comment</variable>
+   <variable id="admin" js="true" php="false">Administrator</variable>
+   <variable id="moderator" js="true" php="false">Moderator</variable>
+   <variable id="user" js="true" php="false">User</variable>
+   <variable id="created" js="true" php="false">Created</variable>
+   <variable id="validated" js="true" php="false">Validated</variable>
+   <variable id="suspended" js="true" php="true">Suspended</variable>
+   <variable id="label.adminComments" js="true" php="false">Comments</variable>
+   <variable id="label.adminUsers" js="true" php="false">Users</variable>
+   <variable id="logAdmin" js="true" php="false">Please authenticate with moderator credentials!</variable>
+   <variable id="approveAllConfirmation" js="true" php="false">Approve all comments?</variable>
+   <variable id="signUp.confirmOk" js="true" php="true">Confirmation successful!</variable>
+   <variable id="signUp.invalidPswd" js="true" php="true">Invalid password supplied !</variable>
+   <variable id="signUp.confirmUsr" js="true" php="true">User creation was successful confirmed!</variable>
+   <variable id="signUp.invalidUsr" js="true" php="true">Invalid user specified to be confirmed!</variable>
+   <variable id="signUp.userConfirmed" js="true" php="true">Your user has been already confirmed!</variable>
+   <variable id="signUp.err.0" js="true" php="false">User creation has succeeded!</variable>
+   <variable id="signUp.err.1" js="true" php="false">Password is too short!</variable>
+   <variable id="signUp.err.2" js="true" php="false">Password contain invalid characters!</variable>
+   <variable id="signUp.err.3" js="true" php="false">Invalid e-mail address!</variable>
+   <variable id="signUp.err.4" js="true" php="false">User name is already taken!</variable>
+   <variable id="signUp.err.5" js="true" php="false">Email is already in the database!</variable>
+   <variable id="signUp.err.6" js="true" php="false">Please insert a valid user name!</variable>
+   <variable id="signUp.err.6.info" js="true" php="false">User name must contain only alphanumeric characters without spaces and it must
+   be at least 2 character long</variable>
+   <variable id="signUp.err.9" js="true" php="false">Invalid Sign Up data!</variable>
+   <variable id="signUp.err.10" js="true" php="false">User can not be created!</variable>
+   <variable id="msg.secureOldPass" js="false" php="true">Please confirm profile update with the current password</variable>
+   <variable id="productsListTitle" js="false" php="true">Products</variable>
+   <variable id="versionsListTitle" js="false" php="true">Versions</variable>
+   <variable id="unavailableTextTillApproved" js="false" php="true">Text is unavailable until post is approved</variable>
+   <variable id="signUpEmailSubject" js="false" php="true">Sign Up Confirmation</variable>
+   <variable id="signUpLoginConfirmation" js="false" php="true">Your user has been verified!</variable>
+   <variable id="RecoveredEmailSubject" js="false" php="true">Password Recovered</variable>
+   <variable id="RecoverConfirmationEmailSubject" js="false" php="true">Password Recovery Confirmation</variable>
+   <variable id="newCommentAdded" js="false" php="true">Comment Added</variable>
+   <variable id="newCommentToModerate" js="false" php="true">Comment To Moderate</variable>
+   <variable id="newUnmoderatedCommentAdded" js="false" php="true">Non moderated Comment</variable>
+   <variable id="newCommentApproved" js="false" php="true">Comment Posted</variable>
+   <variable id="email.duplicate" js="false" php="true">This email is already registered our database!</variable>
+   <variable id="username.duplicate" js="false" php="true">This user name is already taken!</variable>
+   <variable id="pwd.tooShort" js="true" php="true">Password must be at least 5 characters long!</variable>
+   <variable id="input.invalid" js="false" php="true">You have inserted invalid date for:</variable>
+   <variable id="email.user.not.match" js="false" php="true">User and email address does not match any user name in out database!</variable>
+   <variable id="user.name.label" js="false" php="true">Your Name</variable>
+   <variable id="user.status.label" js="false" php="true">Status</variable>
+   <variable id="user.email.label" js="false" php="true">Your E-Mail</variable>
+   <variable id="user.notifyPage.label" js="false" php="true">Page Notification</variable>
+   <variable id="user.notifyAll.label" js="false" php="true">WebHelp Notification</variable>
+   <variable id="user.notifyReply.label" js="false" php="true">Reply Notification</variable>
+   <variable id="user.action.label" js="false" php="true">Edit</variable>
+   <variable id="admin.name.label" js="true" php="true">Name</variable>
+   <variable id="admin.status.label" js="true" php="true">Status</variable>
+   <variable id="admin.email.label" js="true" php="true">E-Mail</variable>
+   <variable id="admin.userName.label" js="true" php="true">User Name</variable>
+   <variable id="admin.level.label" js="true" php="true">Level</variable>
+   <variable id="admin.company.label" js="true" php="true">Company</variable>
+   <variable id="admin.date.label" js="true" php="true">Date</variable>
+   <variable id="admin.notifyPage.label" js="true" php="true">Page Notification</variable>
+   <variable id="admin.notifyAll.label" js="true" php="true">WebHelp Notification</variable>
+   <variable id="admin.notifyReply.label" js="true" php="true">Reply Notification</variable>
+   <variable id="admin.action.label" js="false" php="true">Action</variable>
+   <variable id="comment.moderate.info" js="true" php="true">Post waiting for approval.</variable>
+   <variable id="approved" js="false" php="true">Approved</variable>
+   <variable id="new" js="false" php="true">New</variable>
+   <variable id="rejected" js="false" php="true">Rejected</variable>
+   <variable id="approve" js="false" php="true">Approve</variable>
+   <variable id="edit" js="false" php="true">Edit</variable>
+   <variable id="selected" js="false" php="true">Selected</variable>
+   <variable id="suspend" js="false" php="true">Suspend</variable>
+   <variable id="reply" js="false" php="true">Reply</variable>
+   <variable id="noEmailFound" js="false" php="true">Your specified E-mail does not match any user!</variable>
+   <variable id="noEmailSpecified" js="false" php="true">You did not specified any email address!</variable>
+   <variable id="passwordChanged" js="false" php="true">Your new password was generated! You will receive it in an e-mail shortly!</variable>
+   <variable id="confirmationRequired" js="false" php="true">Your password generation must be confirmed, please check your E-mail!</variable>
+   <variable id="label.tc.commentId" js="false" php="true">Id</variable>
+   <variable id="label.tc.text" js="false" php="true">Text</variable>
+   <variable id="label.tc.userId" js="false" php="true">User</variable>
+   <variable id="label.tc.referedComment" js="false" php="true">Ref. Comment</variable>
+   <variable id="label.tc.date" js="false" php="true">Date</variable>
+   <variable id="label.tc.state" js="false" php="true">State</variable>
+   <!--
+      Used to display the current page number in WebHelp search page. Page 5/16      
+   -->
+   <variable id="label.tc.page" js="false" php="true">Page</variable>
+   <variable id="label.tc.product" js="false" php="true">Product</variable>
+   <variable id="label.tc.version" js="false" php="true">Version</variable>
+   <variable id="label.tc.visible" js="false" php="true">Visible</variable>
+   <variable id="err.notLoggedIn" js="false" php="true">User must be authenticated, in order to execute this operation</variable>
+   <variable id="inst.deploymentSett" js="true" php="false">Deployment Settings</variable>
+   <variable id="inst.overConfig" js="true" php="false">Overwrite Configuration File ?</variable>
+   <variable id="inst.title" js="true" php="false">WebHelp Installer</variable>
+   <variable id="inst.url" js="true" php="false">Deployment URL</variable>
+   <variable id="inst.email" js="true" php="false">WebHelp E-mail from</variable>
+   <variable id="inst.errors" js="true" php="false">Send Errors to System Administrator</variable>
+   <variable id="inst.adminEmail" js="true" php="false">System Administrator E-mail</variable>
+   <variable id="inst.isModerated" js="true" php="false">Comment system is moderated?</variable>
+   <variable id="inst.sesLife" js="true" php="false">Client Session lifetime (sec)</variable>
+   <variable id="inst.isAnonymous" js="true" php="false">Is Anonymous post enable?</variable>
+   <variable id="inst.dbSettings" js="true" php="false">Database Settings</variable>
+   <variable id="inst.dbtype" js="true" php="false">Database Server Type</variable>
+   <variable id="inst.dbCreate" js="true" php="false">Create new database ?</variable>
+   <variable id="inst.dbHost" js="true" php="false">Database Host Name</variable>
+   <variable id="inst.dbName" js="true" php="false">Database Name</variable>
+   <variable id="inst.dbUser" js="true" php="false">Database User Name</variable>
+   <variable id="inst.dbPass" js="true" php="false">Database User Password</variable>
+   <variable id="inst.initSett" js="true" php="false">Initial Settings</variable>
+   <variable id="inst.adminPass" js="true" php="false">Administrator Password</variable>
+   <variable id="inst.adminPass2" js="true" php="false">Confirm Administrator Password</variable>
+   <variable id="inst.start" js="true" php="false">Start Installation</variable>
+   <variable id="inst.nextStep" js="true" php="false">Next Step</variable>
+   <variable id="excluded.terms" js="true" php="false">Excluded terms:</variable>
+</variables>

@@ -1,0 +1,21 @@
+/*
+ * =====================================================
+ * 
+ * Controls the PDFs split mode (by chapters, by parts, etc.).
+ * 
+ * =====================================================
+ */
+
+/* Hide on page annotation, similar to disabling show-onpage-lbl parameter. */
+*[class ~= "topic/topic"][oid][outputclass ~= "pdf-split"] *[class ~= "topic/xref"][href]:after,
+*[class ~= "topic/topic"][oid][outputclass ~= "pdf-split"] *[class ~= "topic/link"][href]:after,
+*[class ~= "map/map"][pdf-split-mode] *[class ~= "topic/xref"][href]:after,
+*[class ~= "map/map"][pdf-split-mode] *[class ~= "topic/link"][href]:after {
+  content: none;
+}
+
+*[class ~= "topic/topic"][oid][outputclass ~= "pdf-split"],
+*[class ~= "map/map"][pdf-split-mode = 'parts'] *[class ~= "topic/topic"][oid][is-part],
+*[class ~= "map/map"][pdf-split-mode = 'chapters'] *[class ~= "topic/topic"][oid][is-chapter]:not([is-part]) {
+  -oxy-pdf-extract-file: attr(oid);
+}

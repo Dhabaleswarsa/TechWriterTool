@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Oxygen PDF CSS HTML5 Plugin
+Copyright (c) 1998-2025 Syncro Soft SRL, Romania.  All rights reserved.
+
+Translation strings for CN Chinese language.
+-->
+<?xml-model href="../../../org.dita.base/xsl/common/strings.rnc" type="application/relax-ng-compact-syntax"?>
+<variables>
+  <variable id="Continued">(续)</variable>
+</variables>

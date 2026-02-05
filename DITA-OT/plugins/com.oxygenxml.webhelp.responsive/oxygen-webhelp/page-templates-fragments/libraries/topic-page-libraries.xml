@@ -1,0 +1,19 @@
+<!-- <head> is ignored - only its children are copied in the output -->
+<head xmlns:whc="http://www.oxygenxml.com/webhelp/components" whc:version="22.0">
+    <script src="${oxygen-webhelp-assets-dir}/app/options/properties.js?buildId=${oxygen-webhelp-transformation-timestamp}"></script>
+    <script src="${oxygen-webhelp-assets-dir}/app/themes.js?buildId=${oxygen-webhelp-transformation-timestamp}"></script>
+    <script src="${oxygen-webhelp-assets-dir}/app/localization/strings.js?buildId=${oxygen-webhelp-build-number}"></script>
+    <script src="${oxygen-webhelp-assets-dir}/app/search/index/keywords.js?buildId=${oxygen-webhelp-transformation-timestamp}"></script>
+    
+    <script defer="defer" src="${oxygen-webhelp-assets-dir}/app/jquery.js?buildId=${oxygen-webhelp-build-number}"></script>
+    <script defer="defer" src="${oxygen-webhelp-assets-dir}/app/jquery-ui.js?buildId=${oxygen-webhelp-build-number}"></script>
+    <script defer="defer" src="${oxygen-webhelp-assets-dir}/app/jquery-bootpag.js?buildId=${oxygen-webhelp-build-number}"></script>
+    <script defer="defer" src="${oxygen-webhelp-assets-dir}/app/jquery-highlight.js?buildId=${oxygen-webhelp-build-number}"></script>
+    <script defer="defer" src="${oxygen-webhelp-assets-dir}/app/popperjs-core.js?buildId=${oxygen-webhelp-build-number}"></script>
+    <script defer="defer" src="${oxygen-webhelp-assets-dir}/app/bootstrap.js?buildId=${oxygen-webhelp-build-number}"></script>
+    <script defer="defer" src="${oxygen-webhelp-assets-dir}/app/dompurify.js?buildId=${oxygen-webhelp-build-number}"></script>
+    <script defer="defer" src="${oxygen-webhelp-assets-dir}/app/image-map.js?buildId=${oxygen-webhelp-build-number}"></script>
+    <script defer="defer" src="${oxygen-webhelp-assets-dir}/app/maphilight.js?buildId=${oxygen-webhelp-build-number}"></script>
+
+    <script defer="defer" src="${oxygen-webhelp-assets-dir}/app/topic.js?buildId=${oxygen-webhelp-build-number}"></script>
+</head>

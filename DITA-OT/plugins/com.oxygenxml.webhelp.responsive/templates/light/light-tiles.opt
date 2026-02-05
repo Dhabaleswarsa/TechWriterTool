@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publishing-template>
+    <name>Light</name>
+    
+    <webhelp>
+        <tags>
+            <tag type="layout">tiles</tag>
+            <tag type="color">gray</tag>
+            <tag type="other">dark-mode</tag>
+        </tags>
+        <preview-image file="light-tiles.png"/>
+        <online-preview-url>https://www.oxygenxml.com/samples/DITA-WebHelp-Responsive/tiles/light/</online-preview-url>
+        <!-- Resources like CSS, favicon, logo and others -->
+        <resources>
+            <!-- Color variables -->
+            <css file="light-theme.css"/>
+            <!-- Main CSS file -->
+            <css file="light.css"/>
+        </resources>
+        
+        <parameters>
+            <parameter name="webhelp.show.main.page.tiles" value="yes"/>
+            <parameter name="webhelp.show.main.page.toc" value="no"/>
+            <parameter name="webhelp.top.menu.depth" value="3"/>
+            <parameter name="webhelp.enable.dark.mode" value="yes"/>
+        </parameters>
+    </webhelp>
+</publishing-template>

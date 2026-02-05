@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="dita-ot/plugin.rnc" type="application/relax-ng-compact-syntax"?>
+<plugin id="com.oxygenxml.zendesk">
+    <transtype name="zendesk-xhtml" extends="xhtml" desc="Zendesk Help Center">
+        <param name="zendesk.host" type="string" desc="Zendesk host where to upload the aticles." required="true"/>
+        <param name="zendesk.username" type="string" desc="Authentication user name" required="true"/>
+        <param name="zendesk.token" type="string" desc="Zendesk API Token used for authentication." required="true"/>
+        <param name="zendesk.category.name" type="string" desc="The category in which to upload the articles. Categories are the top-level organizing containers of the help center. Categories contain sections." required="true"/>
+        <param name="zendesk.section.name" type="string" desc="The section in which to upload the articles. Sections contain related articles. When publishing to a subsection, a path of section names separated by '///' can be passed, for example: 'Main section///Subsection 1///Subsection 1.1'." required="true"/>
+        <param name="zendesk.create.drafts" type="string" desc="When you create a draft article, it is saved but not published, so that you can continue working on it until it's ready to publish.">
+            <val default="true">false</val>
+            <val>true</val>
+        </param>
+        <param name="zendesk.permission.group.name" type="string" desc="Zendesk permission group that controls who edits and publishes articles."/>
+        <param name="zendesk.visible.to" type="string" desc="Zendesk user segment to which the articles are visible."/>
+        <param name="zendesk.create.toc" type="string" desc="Publish the table of contents of the publication as an initial article.">
+            <val>false</val>
+            <val default="true">true</val>
+        </param>
+        <param name="zendesk.toc.title.prefix" type="string" desc="Prefix to use for the title of the table of contents article."/>
+        <param name="zendesk.toc.title.suffix" type="string" desc="Suffix to use for the title of the table of contents article."/>
+    </transtype>
+    
+    <require plugin="org.dita.xhtml"/>
+    
+    <feature extension="ant.import" file="build_zendesk.xml"/>
+    
+</plugin>

@@ -1,0 +1,439 @@
+/*
+ * ==============================================
+ * Skin for oXygen generated WebHelp.
+ * ==============================================
+ */
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Fonts.
+ *  
+ */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,300");
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Fight with bootstrap
+ *  
+ */
+.navbar-brand{
+    height:auto;
+}
+.navbar {
+    border:none;
+    border-radius:0;
+    margin:0;
+}
+a,
+a:hover,
+a:visited{
+    color: var(--wh-link-color);
+}
+a:hover{
+    text-decoration: none;
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Publication titles
+ *  
+ */
+ .wh_publication_title > a{
+     font-size: 1.5em;
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Menu
+ *  
+ */
+.wh_top_menu {
+    font-size: 1.1em;
+    margin: .4em 0;
+}
+
+/* The submenus */
+.wh_top_menu a {
+  color: var(--wh-link-color);
+}
+.wh_top_menu ul ul {
+    background-color: var(--wh-top-menu-bg);
+}
+.wh_top_menu ul li a:focus,
+.wh_top_menu ul li a:hover,
+.wh_top_menu.activated-on-click ul li.active {
+    background-color: var(--wh-top-menu-bg);
+}
+.wh_top_menu ul ul li a:focus,
+.wh_top_menu ul ul li a:hover {
+    background: var(--wh-top-menu-children-bg);
+    color: var(--wh-top-menu-children-color);
+}
+.wh_top_menu ul ul li {
+    border-top-color: var(--wh-top-menu-children-bg);
+}
+
+.wh_top_menu:not(.activated-on-click) ul:hover li,
+.wh_top_menu:not(.activated-on-click) ul li:hover {
+    /* WH-2521 Change the background color imediatelly when the current menu item (li) or other menu item is hovered. */
+    transition: none; 
+}
+
+.wh_top_menu:not(.activated-on-click) ul li {
+    /* WH-2521 Delay the background color change on hover off. */
+    transition: background-color 0.2s 1s;
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Link to the index.
+ * 
+ */
+ .wh_indexterms_link a span{
+    display:none;
+}
+
+@media only screen and (max-width: 767px) {
+    .wh_indexterms_link a:before{
+        bottom: 0;
+    }
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Breadcrumb
+ *  
+ */
+.wh_breadcrumb ol{
+    color: var(--wh-breadcrumb-color);
+}
+.wh_breadcrumb ol a {
+    color:inherit;
+}
+.wh_breadcrumb ol .active {
+    color: var(--wh-related-links-color);
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Tools and navigation
+ * 
+ */
+.wh_tools{
+    margin: 1em 0 2em;
+    background-color: var(--wh-strong-bg);
+}
+
+.wh_print_link,
+.wh_navigation_links,
+.wh_navigation_links .navnext,
+.wh_navigation_links .navprev{
+}
+
+.webhelp_full_width_link,
+.wh_print_link button,
+.webhelp_expand_collapse_sections,
+.wh_hide_highlight,
+.oxy-icon-pdf-link,
+.wh-md-menu-button,
+.wh_navigation_links a,
+.wh_navigation_links a:hover,
+.wh_navigation_links a:active,
+.wh_navigation_links a:visited,
+.wh_print_link a:before,
+.wh_navigation_links a:before,
+.wh_navigation_links a:hover:before,
+.wh_navigation_links a:active:before,
+.wh_navigation_links a:visited:before{
+    color: #347bb7;
+    text-decoration: none;
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Tiles
+ * 
+ */
+.wh_tile {
+    border-radius: .5em;
+    background-color: var(--wh-strong-bg);
+}
+.wh_tile_shortdesc{
+    margin-top:0.5em;
+    text-align: center;
+    color: var(--wh-main-page-shortdesc-color);
+}
+.wh_tile_title{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size:1.1em;
+    text-decoration: none;
+}
+.wh_tile_title  a{
+}
+.wh_tile_text:after{
+    background: linear-gradient(to bottom, rgba(238, 238, 238, 0), rgba(238, 238, 238, 1) 50%);
+}
+@media only screen and (max-width: 767px) {
+    .wh_tile > div{
+        height: auto;
+    }
+}
+
+/* 
+You can style some of the tiles in a special way. 
+Example:
+.wh_tiles *[data-id='getting_started']{
+    background-color:gray;
+}
+*/
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Search area
+ * 
+ */
+.wh_search_input{
+    margin:2em 0;
+}
+.wh_welcome:not(:empty){
+    font-size: 2.5em;
+    margin: 0 auto;
+    padding: 0 0 .5em 0;
+    text-shadow: none;
+    color:var(--wh-welcome-color);
+}
+.wh_search_textfield{
+    background-color: var(--wh-strong-bg);
+    border: solid 1px var(--wh-soft-color);
+    border-radius: 5px;
+    padding: 0 .5em;
+    font-size: 1.2em;
+    line-height: 2em;
+    height: auto;
+}
+.wh_search_button{
+    border: solid 1px var(--wh-soft-color);
+    border-radius: 0 5px 5px 0;
+    padding: 0.5em 1em;
+    color: var(--wh-secondary-color);
+    background-color: var(--wh-search-color);
+    height: 100%;
+}
+
+/* Search autocomplete */
+.ui-menu-item {
+    font-size: 1.4em;
+}
+
+.ui-menu-item .ui-state-active {
+    background-color: var(--wh-search-pagination-active-bg);
+}
+
+/* Search relative path */
+.searchresult li .relativePath a {
+    color: var(--wh-searchresult-relativepath-color);
+}
+
+.ui-autocomplete {
+    background-color: var(--wh-primary-bg);
+    color: var(--wh-primary-color);
+}
+
+/* Search autocomplete icons */
+.search-autocomplete-proposal-type-history a,
+.search-autocomplete-proposal-type-history a:hover,
+.search-autocomplete-proposal-type-history a:visited,
+.search-autocomplete-proposal-type-history a:active{
+    text-decoration: none;
+    color:inherit;
+    font-size: 0.8em;
+}
+.ui-state-active .search-autocomplete-proposal-type-history a,
+.ui-state-active .search-autocomplete-proposal-type-history a:hover,
+.ui-state-active .search-autocomplete-proposal-type-history a:visited,
+.ui-state-active .search-autocomplete-proposal-type-history a:active{
+    color: var(--wh-secondary-color);
+}
+
+/* Search pagination */
+#wh-search-pagination > ul > li > a {
+    background-color: var(--wh-search-pagination-bg);
+    color: var(--wh-link-color);
+}
+#wh-search-pagination > ul > li.active > a {
+    background-color: var(--wh-search-pagination-active-bg);
+    color: var(--wh-secondary-color);
+}
+#wh-search-pagination > ul > li.disabled > a {
+    background-color: var(--wh-search-pagination-disabled-bg);
+    color: var(--wh-search-pagination-disabled-color);
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    border-color: var(--wh-searchresult-color) !important;
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Publication TOC
+ * 
+ */
+.wh_publication_toc{
+    border-radius: 3px;
+    background-color: var(--wh-strong-bg);
+    padding: 1.5em 2em;
+    line-height: 2em;
+}
+.wh_publication_toc .active > .topicref a {
+    color: var(--wh-related-links-color);
+    font-weight: normal;
+}
+.wh_publication_toc div, .wh_publication_toc a, .wh_publication_toc a:visited, .wh_publication_toc a:hover {
+    color: var(--wh-publication-toc-color);
+}
+.wh_publication_toc a:hover {
+    text-decoration: underline;
+}
+.topictitle3{
+    font-weight: 400
+}
+@media only screen and (max-width: 767px) {
+    .wh_publication_toc {
+        border-radius: 0;
+        padding: 1em 0.5em;
+        margin-top: 10px;
+    }
+}
+
+/* TOC button */
+.close-toc-button {
+  background-color: var(--wh-primary-bg);
+  box-shadow: 0 2px 5px var(--wh-close-toc-button-shadow);
+}
+.close-toc-button:hover {
+  background-color: var(--wh-subtle-color);
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Footer
+ * 
+ */
+.wh_footer{
+    text-align: center;
+    padding: 1em;
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Topic content
+ * 
+ */
+.wh_topic_content,.wh_content_area {
+    color: var(--wh-primary-color);
+    line-height: 1.7em
+}
+
+.wh_related_links,
+.wh_child_links,
+.wh_topic_content .related-links {
+    background-color: var(--wh-strong-bg);
+    padding: 1.5em;
+    margin-top: 1.5em;
+}
+
+.related-links a,
+.related-links a:visited {
+    color: var(--wh-related-links-color);
+    padding-bottom: .3em;
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Search results.
+ * 
+ */
+.searchresult {
+    list-style: none;
+}
+
+.searchresult li a {
+    color:var(--wh-searchresult-color);
+}
+.searchresult .shortdesclink {
+    margin: .3em .5em 0 0;
+}
+.wh_search_expression{
+    font-weight:bold;
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Index terms.
+ * 
+ */
+.wh_index_terms span.wh_first_letter {
+    color: var(--wh-searchresult-color);
+}
+.wh_index_terms #indexList{
+    padding:0;
+}
+
+/*
+ * ------------------------------------------------------------------
+ *  
+ * Tree TOC for the main page.
+ * 
+ */
+.wh_main_page_toc{
+}
+
+#go2top {
+  color: var(--wh-secondary-color);
+}
+
+.nav-tabs .nav-link {
+  color: var(--wh-link-color);
+}
+.nav-tabs .nav-link.active {
+  background-color: var(--wh-primary-bg);
+  border-color: var(--wh-subtle-color);
+  color: var(--wh-primary-color);
+}
+
+.wh_theme {
+    font-size: 1.1em;
+}
+.wh_theme .dropdown-item {
+    color: var(--wh-link-color);
+}
+.wh_theme .dropdown-item:hover,
+.wh_theme .dropdown-item:focus {
+    background-color: var(--wh-top-menu-children-bg);
+    color: var(--wh-top-menu-children-color);
+}
+.wh_theme_btn {
+    color: var(--wh-link-color);
+}
+.wh_theme ul button.active {
+    background-color: var(--wh-top-menu-children-bg);
+}

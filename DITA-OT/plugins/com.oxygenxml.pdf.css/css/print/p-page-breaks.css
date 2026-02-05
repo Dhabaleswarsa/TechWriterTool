@@ -1,0 +1,49 @@
+
+/*
+ * =====================================================
+ * 
+ * Rules for avoiding breaking the pages in unexpected 
+ * places (between titles and content for instance )
+ * 
+ * =====================================================
+ */
+*[class ~= "topic/title"] {
+  break-after: avoid;
+}
+
+/* 
+ * Avoid any page break between note title and first next sibling.
+ */
+span.note__title {
+  break-after: avoid;
+}
+
+/* Avoid breaking between a link list title and its content */
+*[class ~= "topic/linklist"] > strong,
+*[class ~= "topic/linklist"] > *[class ~= "topic/title"] {
+  break-after: avoid;
+  display: block;
+}
+
+/*
+ * Forced page breaks.
+ *
+ * The page break values can be set either on an element from the content: topic, section, etc, or
+ * on a topicref.
+ *
+ * The outputclass from the topicrefs is copied to 
+ * the topics, it would be meaningless to apply the page 
+ * break in the toc.
+ */
+*:not([class ~= "map/topicref"])[outputclass ~= "break-before"],
+*:not([class ~= "map/topicref"])[outputclass ~= "page-break-before"] {
+  break-before: always;
+}
+*:not([class ~= "map/topicref"])[outputclass ~= "break-after"],
+*:not([class ~= "map/topicref"])[outputclass ~= "page-break-after"] {
+  break-after: always;
+}
+*:not([class ~= "map/topicref"])[outputclass ~= "break-avoid"],
+*:not([class ~= "map/topicref"])[outputclass ~= "page-break-avoid"] {
+  break-inside: avoid;
+}

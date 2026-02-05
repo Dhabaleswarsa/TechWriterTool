@@ -1,0 +1,10 @@
+<!-- <head> is ignored - only its children are copied in the output -->
+<head xmlns:whc="http://www.oxygenxml.com/webhelp/components" whc:version="22.0">
+    <link rel="stylesheet" type="text/css" 
+        href="${oxygen-webhelp-assets-dir}/app/bootstrap.css?buildId=${oxygen-webhelp-build-number}" />
+    <link rel="stylesheet" type="text/css" 
+        href="${oxygen-webhelp-assets-dir}/app/jquery-ui.css?buildId=${oxygen-webhelp-build-number}" />
+        
+    <link rel="stylesheet" type="text/css" 
+        href="${oxygen-webhelp-assets-dir}/app/indexterms.css?buildId=${oxygen-webhelp-build-number}" />
+</head>

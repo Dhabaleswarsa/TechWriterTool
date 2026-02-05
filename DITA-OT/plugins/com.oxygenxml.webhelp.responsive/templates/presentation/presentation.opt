@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publishing-template>
+  <name>Presentation</name>
+
+  <pdf>
+    <preview-image file="presentation.png"/>
+    <tags>
+      <tag type="layout">slides</tag>
+    </tags>
+    <resources>
+      <css file="presentation-pages.css"/>
+      <css file="presentation-print.css"/>
+    </resources>
+  </pdf>
+</publishing-template>
