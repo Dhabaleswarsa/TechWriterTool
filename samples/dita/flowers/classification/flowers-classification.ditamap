@@ -5,25 +5,8 @@
     <!-- 
     Associate topics to a season and family. 
    -->
-    <topicref href="../concepts/springFlowers.dita">
-        
-        <topicref href="../topics/flowers/iris.dita"/>
-        <topicref href="../topics/flowers/snowdrop.dita"/>
-    </topicref>
-    <topicref href="../concepts/summerFlowers.dita">
-        
-        <topicref href="../topics/flowers/gardenia.dita"/>
-        <topicref href="../topics/flowers/lilac.dita"/>
-        
-    </topicref>
-    <topicref href="../concepts/autumnFlowers.dita">
-        
-        <topicref href="../topics/flowers/chrysanthemum.dita"/>
-        <topicref href="../topics/flowers/salvia.dita"/>
-        
-    </topicref>
-    <topicref href="../concepts/winterFlowers.dita">
-        <topicref href="../topics/flowers/gerbera.dita"/>
-    </topicref>
+    <topicref href="../concepts/springFlowers.dita"/>
+    <topicref href="../concepts/summerFlowers.dita"/>
+    <topicref href="../concepts/autumnFlowers.dita"/>
     
 </map>

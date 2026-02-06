@@ -24,7 +24,7 @@
 						<String>/Users/dhabal/Documents/temp</String>
 					</field>
 					<field name="transtype">
-						<String>cust-pdf2</String>
+						<String>pdf2</String>
 					</field>
 					<field name="filters">
 						<ditavalFilters>
